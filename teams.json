@@ -3,7 +3,7 @@
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
   "totalTeams": 18,
-  "totalCodes": 24,
+  "totalCodes": 25,
   "teams": [
     {
       "team": "Aemeath, Augusta, Baizhi",
@@ -422,7 +422,7 @@
         "Mornye",
         "Qingxiao"
       ],
-      "totalCodes": 2,
+      "totalCodes": 3,
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Denia_Mornye_Qingxiao.json",
       "codes": [
         {
@@ -443,6 +443,25 @@
           "sizeFormatted": "64.11 KB",
           "timestamp": 1787352088,
           "modifiedAt": "2026-08-21T22:41:28.000Z"
+        },
+        {
+          "filename": "Denia_Mornye_Qingxiao_楽山_1.0.2.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
+          "name": "Denia_Mornye_Qingxiao",
+          "description": "清达莫5R5Z轴\n样本：01清01达11莫\n效率：清130达135莫270\n位置：一号位清霄 二号位达尼娅 三号位莫宁\n环境参考：2K分辨率下N卡4X插帧稳定在240帧，ping值在130左右\n  实机已跑通，R2宝箱开，目前一次转火可以跑通，二次转火没有测试，成功情况未知。流程并不十分完美，但是尚可接受，主要为清霄R的CD未转好，暂时不知道如何解决。\n  轴未设置保底，被肘即重开\n  演示视频可以去B站搜本人昵称，用作参考",
+          "author": "楽山",
+          "version": "1.0.2",
+          "team": "Denia, Mornye, Qingxiao",
+          "members": [
+            "Denia",
+            "Mornye",
+            "Qingxiao"
+          ],
+          "size": 79496,
+          "sizeFormatted": "77.63 KB",
+          "timestamp": 1788807192,
+          "modifiedAt": "2026-09-07T18:53:12.000Z"
         },
         {
           "filename": "Denia_Mornye_Qingxiao_钶镀_1.0.0.zip",
