@@ -1,0 +1,32 @@
+{
+  "team": "Jiyan, Mortefi, Verina",
+  "slug": "Jiyan_Mortefi_Verina",
+  "members": [
+    "Jiyan",
+    "Mortefi",
+    "Verina"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Jiyan_Mortefi_Verina.json",
+  "codes": [
+    {
+      "filename": "Jiyan_Mortefi_Verina_芝士奶酪_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Jiyan_Mortefi_Verina_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Jiyan_Mortefi_Verina_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+      "name": "Jiyan_Mortefi_Verina",
+      "description": "【使用说明】\n1. 共鸣链配置：忌炎01（专武），莫特斐61（常驻五星枪），维里奈0链（2精奇幻变奏）。本轴以以上配置进行测试；维里奈若有2链，启动速度会更快。\n2. 共鸣效率适配：目前未专门测试最低共鸣效率阈值，实机测试使用忌炎老猴子风套130%共鸣效率、莫特斐高天套170%共鸣效率、维里奈奶套251.8%共鸣效率，可先以该测试配置作为参考。不同武器、声骸及共鸣效率配置可能影响能量获取与循环速度。如果将忌炎3c换成共效，应该可以提高忌炎循环轴开大的速度。\n3. 一号位角色：忌炎。建议开战时由忌炎在场，并关闭ok-ww自动战斗中的开局切奶妈功能，以便脚本从开场流程正常进入后续循环。\n4. 其他备注：这是基于OK-WW的“忌炎＋莫特斐＋维里奈”自动合轴，整体按照P1开场、P2过渡、P3循环的固定流程运行。脚本主要负责技能、协奏、切人和爆发衔接，玩家主要负责追怪、锁敌、站位以及针对怪物招式进行躲避。脚本不会自动判断与怪物的实际距离，也不能保证每次技能或攻击都实际命中目标。\n同时，本代码只有在队伍识别到忌莫维时才会执行流程轴代码，三者缺一角色将会执行ok-ww默认代码。\n由于不同怪物机制、高难环境、角色配置以及不同电脑和游戏运行环境均可能影响轴的复现，因此实际循环速度和稳定性可能存在差异。\n欢迎大家使用并提出优化意见。联系方式：3群，本人qq1551547950",
+      "author": "芝士奶酪",
+      "version": "1.0.0",
+      "team": "Jiyan, Mortefi, Verina",
+      "members": [
+        "Jiyan",
+        "Mortefi",
+        "Verina"
+      ],
+      "size": 57566,
+      "sizeFormatted": "56.22 KB",
+      "timestamp": 1788858078,
+      "modifiedAt": "2026-09-08T09:01:18.000Z"
+    }
+  ]
+}
