@@ -1,0 +1,32 @@
+{
+  "team": "Phoebe, Verina, Zani",
+  "slug": "Phoebe_Verina_Zani",
+  "members": [
+    "Phoebe",
+    "Verina",
+    "Zani"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Phoebe_Verina_Zani.json",
+  "codes": [
+    {
+      "filename": "Phoebe_Verina_Zani_楽山_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "name": "Phoebe_Verina_Zani",
+      "description": "赞菲维轮椅轴\n样本：01赞妮01菲比2链维里奈带精1奇幻变奏\n共效：赞妮115菲比130维里奈260\n位置：一号位赞妮 二号位菲比 三号位维里奈\n实机已跑通，建议走地BOSS开 赞妮对空能力太差 维里奈理论上2链以下也可以使用 但是可能打不到4R",
+      "author": "楽山",
+      "version": "1.0.0",
+      "team": "Phoebe, Verina, Zani",
+      "members": [
+        "Phoebe",
+        "Verina",
+        "Zani"
+      ],
+      "size": 60448,
+      "sizeFormatted": "59.03 KB",
+      "timestamp": 1788895337,
+      "modifiedAt": "2026-09-08T19:22:17.000Z"
+    }
+  ]
+}
