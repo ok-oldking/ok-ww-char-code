@@ -3,7 +3,7 @@
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
   "totalTeams": 20,
-  "totalCodes": 27,
+  "totalCodes": 28,
   "teams": [
     {
       "team": "Aemeath, Augusta, Baizhi",
@@ -690,7 +690,7 @@
         "Rover",
         "Zani"
       ],
-      "totalCodes": 1,
+      "totalCodes": 2,
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Phoebe_Rover_Zani.json",
       "codes": [
         {
@@ -711,6 +711,25 @@
           "sizeFormatted": "19.85 KB",
           "timestamp": 1787888368,
           "modifiedAt": "2026-08-28T03:39:28.000Z"
+        },
+        {
+          "filename": "Phoebe_Rover_Zani_芝士奶酪_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+          "name": "Phoebe_Rover_Zani - 4终夜3终夜循环",
+          "description": "【使用说明】\n1. 共鸣链配置：01赞妮00菲比（1阶奇幻）65光主（5阶千古）。\n2. 共鸣效率适配：测试样本赞妮（衍射套）117.6%菲比（衍射套）194.2%光主（奶套）125.6%，没测试过最低共效，不过赞妮110-120%共效应该够用。\n3. 首发建议赞妮，并关闭ok-ww自动战斗中的开局切奶妈功能。P1为启动轴以压缩时间、保证赞妮4终夜，如果添加闪避第四个终夜尾刀伤害可能打不出就要释放r2。也就是4终夜和r2二选一，本次代码选择保留r2；P2为循环轴时间较宽裕，会根据菲比告解及R的剩余CD，动态安排光主AZ、E等动作填轴。\n4. 其他备注：玩家主要负责追怪、锁敌、站位以及针对怪物招式进行躲避。脚本不会自动判断与怪物的实际距离，也不能保证每次技能或攻击都实际命中目标。普通攻击及等待阶段可以手动闪避，但尽量避免在赞妮强化E、终夜、R2，以及菲比告解、R释放的瞬间闪避或手动释放其他技能，以免打断关键动作。赞妮非R状态下可自行释放F，但强化E已经亮起或正在释放时不要手动F；赞妮R期间也不要主动F，避免影响终夜与R2流程。手动F或闪避一般不会直接重置STEP，但可能使当前动作需要重新确认或延迟执行。此外本代码又设置队伍识别系统，当且仅当赞菲光三个角色才执行本套流程。其他角色组队将会执行ok-ww默认代码。\n由于不同怪物机制、高难环境、角色配置以及不同电脑和游戏运行环境均可能影响轴的复现，因此实际循环速度和稳定性可能存在差异。\n欢迎大家使用并提出优化意见。联系方式：3群，芝士奶酪qq1551547950",
+          "author": "芝士奶酪",
+          "version": "1.0.0",
+          "team": "Phoebe, Rover, Zani",
+          "members": [
+            "Phoebe",
+            "Rover",
+            "Zani"
+          ],
+          "size": 53054,
+          "sizeFormatted": "51.81 KB",
+          "timestamp": 1788944248,
+          "modifiedAt": "2026-09-09T08:57:28.000Z"
         }
       ]
     },
