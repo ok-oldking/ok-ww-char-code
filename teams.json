@@ -2,8 +2,8 @@
   "repository": "ok-oldking/ok-ww-char-code",
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
-  "totalTeams": 20,
-  "totalCodes": 28,
+  "totalTeams": 21,
+  "totalCodes": 29,
   "teams": [
     {
       "team": "Aemeath, Augusta, Baizhi",
@@ -251,6 +251,38 @@
           "sizeFormatted": "59.23 KB",
           "timestamp": 1788385431,
           "modifiedAt": "2026-09-02T21:43:51.000Z"
+        }
+      ]
+    },
+    {
+      "team": "Brant, Changli, Lupa",
+      "slug": "Brant_Changli_Lupa",
+      "members": [
+        "Brant",
+        "Changli",
+        "Lupa"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Brant_Changli_Lupa.json",
+      "codes": [
+        {
+          "filename": "Brant_Changli_Lupa_楽山_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Brant_Changli_Lupa_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Brant_Changli_Lupa_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "name": "Brant_Changli_Lupa",
+          "description": "长露船三火双锚半自动轴\n样本：01长离01露帕01船长\n共效：长离130露帕120船长280\n位置：一号位长离 二号位露帕 三号位船长\n实机已跑通，复现难度视BOSS而定，转火问题不打，但是中间流程被打断就GG，实用性不高，可以在宝箱怪垫垫分。\nTips：1 本轴船长第一个锚下去需要手动接F处决 如果没有处决需要手动接R 这段流程始终有时间波动 不稳定 手操最稳定\n2 如果船长进场准备双锚时 回路条可能会由于boss乱动 积攒的回路条不够 虽然做了保底 但是可能最后才有锚 可以手动释放强化E 避免识别不到 漏放第一个锚（第二个锚同理，不影响流程）",
+          "author": "楽山",
+          "version": "1.0.0",
+          "team": "Brant, Changli, Lupa",
+          "members": [
+            "Brant",
+            "Changli",
+            "Lupa"
+          ],
+          "size": 67214,
+          "sizeFormatted": "65.64 KB",
+          "timestamp": 1789084247,
+          "modifiedAt": "2026-09-10T23:50:47.000Z"
         }
       ]
     },
