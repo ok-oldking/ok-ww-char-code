@@ -1,0 +1,32 @@
+{
+  "team": "Cantarella, Galbrena, Phrolova",
+  "slug": "Cantarella_Galbrena_Phrolova",
+  "members": [
+    "Cantarella",
+    "Galbrena",
+    "Phrolova"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cantarella_Galbrena_Phrolova.json",
+  "codes": [
+    {
+      "filename": "Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
+      "name": "Cantarella_Galbrena_Phrolova",
+      "description": "坎特蕾拉一号位开，最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。",
+      "author": "EEEEEEEEdison",
+      "version": "1.0.0",
+      "team": "Cantarella, Galbrena, Phrolova",
+      "members": [
+        "Cantarella",
+        "Galbrena",
+        "Phrolova"
+      ],
+      "size": 8277,
+      "sizeFormatted": "8.08 KB",
+      "timestamp": 1789119228,
+      "modifiedAt": "2026-09-11T09:33:48.000Z"
+    }
+  ]
+}

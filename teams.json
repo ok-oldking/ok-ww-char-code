@@ -2,8 +2,8 @@
   "repository": "ok-oldking/ok-ww-char-code",
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
-  "totalTeams": 17,
-  "totalCodes": 23,
+  "totalTeams": 23,
+  "totalCodes": 31,
   "teams": [
     {
       "team": "Aemeath, Augusta, Baizhi",
@@ -255,6 +255,70 @@
       ]
     },
     {
+      "team": "Brant, Changli, Lupa",
+      "slug": "Brant_Changli_Lupa",
+      "members": [
+        "Brant",
+        "Changli",
+        "Lupa"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Brant_Changli_Lupa.json",
+      "codes": [
+        {
+          "filename": "Brant_Changli_Lupa_楽山_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Brant_Changli_Lupa_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Brant_Changli_Lupa_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "name": "Brant_Changli_Lupa",
+          "description": "长露船三火双锚半自动轴\n样本：01长离01露帕01船长\n共效：长离130露帕120船长280\n位置：一号位长离 二号位露帕 三号位船长\n实机已跑通，复现难度视BOSS而定，转火问题不打，但是中间流程被打断就GG，实用性不高，可以在宝箱怪垫垫分。\nTips：1 本轴船长第一个锚下去需要手动接F处决 如果没有处决需要手动接R 这段流程始终有时间波动 不稳定 手操最稳定\n2 如果船长进场准备双锚时 回路条可能会由于boss乱动 积攒的回路条不够 虽然做了保底 但是可能最后才有锚 可以手动释放强化E 避免识别不到 漏放第一个锚（第二个锚同理，不影响流程）",
+          "author": "楽山",
+          "version": "1.0.0",
+          "team": "Brant, Changli, Lupa",
+          "members": [
+            "Brant",
+            "Changli",
+            "Lupa"
+          ],
+          "size": 67214,
+          "sizeFormatted": "65.64 KB",
+          "timestamp": 1789084247,
+          "modifiedAt": "2026-09-10T23:50:47.000Z"
+        }
+      ]
+    },
+    {
+      "team": "Buling, Phrolova, Verina",
+      "slug": "Buling_Phrolova_Verina",
+      "members": [
+        "Buling",
+        "Phrolova",
+        "Verina"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Phrolova_Verina.json",
+      "codes": [
+        {
+          "filename": "Buling_Phrolova_Verina_Desolatehao_1.2.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Phrolova_Verina_Desolatehao_1.2.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Phrolova_Verina_Desolatehao_1.2.0.zip",
+          "name": "Buling_Phrolova_Verina",
+          "description": "弗卜维固定启动轴 + 循环轴。\n\n参考来源：B站 O派大star 视频 BV1JJKa63EQi（https://www.bilibili.com/video/BV1JJKa63EQi），已获得作者授权引用该视频作为轴说明参考。\n\n1. 最低共鸣链适配：卜灵 0 链；弗洛洛 2 链 + 专属武器（2+1）；维里奈 0 链即可复刻流程，2 链时循环阶段可跳过 R。\n2. 测试队伍共鸣效率：弗洛洛 108.4%；卜灵 193.2%；维里奈 231.4%。以上为当前实机测试配置，不代表已测定统一最低门槛。\n3. 一号位：卜灵。启动顺序从卜灵 AA 开始。\n4. 其他备注：卜灵、维里奈只需一阶奇幻变奏；固定完成启动轴和循环轴。\n\n启动：\n卜 aa -> 维 e -> 弗 aa Q A e A z -> 卜 e 4a 跳 a z z r\n-> 弗 a 闪 A r -> 卜 aa Q -> 维 e Q 闪 跳 aa\n-> 弗 a 闪 A e A 闪 (3a 闪 A 闪) (3a 闪 A 闪) (3a 闪 A 闪) 3a Q A z r\n-> 维\n\n循环：\n维 -> 卜 e a 跳 a z z -> 维 e Q -> 卜 aa Q r\n-> 弗 a 闪 A e A -> 维 跳 aa\n-> 弗 a 闪 A (3a 闪 A 闪) (3a 闪 A 闪) 3a Q A e A z r\n-> 维",
+          "author": "Desolatehao",
+          "version": "1.2.0",
+          "team": "Buling, Phrolova, Verina",
+          "members": [
+            "Buling",
+            "Phrolova",
+            "Verina"
+          ],
+          "size": 19013,
+          "sizeFormatted": "18.57 KB",
+          "timestamp": 1789184720,
+          "modifiedAt": "2026-09-12T03:45:20.000Z"
+        }
+      ]
+    },
+    {
       "team": "Camellya, Sanhua, Verina",
       "slug": "Camellya_Sanhua_Verina",
       "members": [
@@ -287,6 +351,38 @@
       ]
     },
     {
+      "team": "Cantarella, Galbrena, Phrolova",
+      "slug": "Cantarella_Galbrena_Phrolova",
+      "members": [
+        "Cantarella",
+        "Galbrena",
+        "Phrolova"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cantarella_Galbrena_Phrolova.json",
+      "codes": [
+        {
+          "filename": "Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
+          "name": "Cantarella_Galbrena_Phrolova",
+          "description": "坎特蕾拉一号位开，最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。",
+          "author": "EEEEEEEEdison",
+          "version": "1.0.0",
+          "team": "Cantarella, Galbrena, Phrolova",
+          "members": [
+            "Cantarella",
+            "Galbrena",
+            "Phrolova"
+          ],
+          "size": 8277,
+          "sizeFormatted": "8.08 KB",
+          "timestamp": 1789119228,
+          "modifiedAt": "2026-09-11T09:33:48.000Z"
+        }
+      ]
+    },
+    {
       "team": "Cantarella, Mornye, Phrolova",
       "slug": "Cantarella_Mornye_Phrolova",
       "members": [
@@ -315,6 +411,38 @@
           "sizeFormatted": "86.82 KB",
           "timestamp": 1788216993,
           "modifiedAt": "2026-08-31T22:56:33.000Z"
+        }
+      ]
+    },
+    {
+      "team": "Buling, Carlotta, Zhezhi",
+      "slug": "Buling_Carlotta_Zhezhi",
+      "members": [
+        "Buling",
+        "Carlotta",
+        "Zhezhi"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Carlotta_Zhezhi.json",
+      "codes": [
+        {
+          "filename": "Carlotta_Buling_Zhezhi_楽山_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Carlotta_Buling_Zhezhi_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Carlotta_Buling_Zhezhi_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "name": "Carlotta_Buling_Zhezhi",
+          "description": "柯折卜轮椅轴\n样本：01柯00折00卜（卜灵为模板角色）\n共效：柯120折132卜200（卜灵为模板角色）\n位置：一号位柯莱塔 二号位折枝 三号位卜灵\n实机已跑通 复现难度低 本身该队伍就比较轮椅 但是在面对一些粪怪时 卜灵和折枝还是容易被肘 已做出相应的保底措施 也可以自己加入闪避 柯莱塔大招期间可以自主调整走位和闪避 不影响流程",
+          "author": "楽山",
+          "version": "1.0.0",
+          "team": "Buling, Carlotta, Zhezhi",
+          "members": [
+            "Buling",
+            "Carlotta",
+            "Zhezhi"
+          ],
+          "size": 43310,
+          "sizeFormatted": "42.29 KB",
+          "timestamp": 1788692734,
+          "modifiedAt": "2026-09-06T11:05:34.000Z"
         }
       ]
     },
@@ -390,7 +518,7 @@
         "Mornye",
         "Qingxiao"
       ],
-      "totalCodes": 2,
+      "totalCodes": 3,
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Denia_Mornye_Qingxiao.json",
       "codes": [
         {
@@ -411,6 +539,25 @@
           "sizeFormatted": "64.11 KB",
           "timestamp": 1787352088,
           "modifiedAt": "2026-08-21T22:41:28.000Z"
+        },
+        {
+          "filename": "Denia_Mornye_Qingxiao_楽山_1.0.2.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
+          "name": "Denia_Mornye_Qingxiao",
+          "description": "清达莫5R5Z轴\n样本：01清01达11莫\n效率：清130达135莫270\n位置：一号位清霄 二号位达尼娅 三号位莫宁\n环境参考：2K分辨率下N卡4X插帧稳定在240帧，ping值在130左右\n  实机已跑通，R2宝箱开，目前一次转火可以跑通，二次转火没有测试，成功情况未知。流程并不十分完美，但是尚可接受，主要为清霄R的CD未转好，暂时不知道如何解决。\n  轴未设置保底，被肘即重开\n  演示视频可以去B站搜本人昵称，用作参考",
+          "author": "楽山",
+          "version": "1.0.2",
+          "team": "Denia, Mornye, Qingxiao",
+          "members": [
+            "Denia",
+            "Mornye",
+            "Qingxiao"
+          ],
+          "size": 79496,
+          "sizeFormatted": "77.63 KB",
+          "timestamp": 1788807192,
+          "modifiedAt": "2026-09-07T18:53:12.000Z"
         },
         {
           "filename": "Denia_Mornye_Qingxiao_钶镀_1.0.0.zip",
@@ -600,6 +747,38 @@
       ]
     },
     {
+      "team": "Jiyan, Mortefi, Verina",
+      "slug": "Jiyan_Mortefi_Verina",
+      "members": [
+        "Jiyan",
+        "Mortefi",
+        "Verina"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Jiyan_Mortefi_Verina.json",
+      "codes": [
+        {
+          "filename": "Jiyan_Mortefi_Verina_芝士奶酪_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Jiyan_Mortefi_Verina_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Jiyan_Mortefi_Verina_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+          "name": "Jiyan_Mortefi_Verina",
+          "description": "【使用说明】\n1. 共鸣链配置：忌炎01（专武），莫特斐61（常驻五星枪），维里奈0链（2精奇幻变奏）。本轴以以上配置进行测试；维里奈若有2链，启动速度会更快。\n2. 共鸣效率适配：目前未专门测试最低共鸣效率阈值，实机测试使用忌炎老猴子风套130%共鸣效率、莫特斐高天套170%共鸣效率、维里奈奶套251.8%共鸣效率，可先以该测试配置作为参考。不同武器、声骸及共鸣效率配置可能影响能量获取与循环速度。如果将忌炎3c换成共效，应该可以提高忌炎循环轴开大的速度。\n3. 一号位角色：忌炎。建议开战时由忌炎在场，并关闭ok-ww自动战斗中的开局切奶妈功能，以便脚本从开场流程正常进入后续循环。\n4. 其他备注：这是基于OK-WW的“忌炎＋莫特斐＋维里奈”自动合轴，整体按照P1开场、P2过渡、P3循环的固定流程运行。脚本主要负责技能、协奏、切人和爆发衔接，玩家主要负责追怪、锁敌、站位以及针对怪物招式进行躲避。脚本不会自动判断与怪物的实际距离，也不能保证每次技能或攻击都实际命中目标。\n同时，本代码只有在队伍识别到忌莫维时才会执行流程轴代码，三者缺一角色将会执行ok-ww默认代码。\n由于不同怪物机制、高难环境、角色配置以及不同电脑和游戏运行环境均可能影响轴的复现，因此实际循环速度和稳定性可能存在差异。\n欢迎大家使用并提出优化意见。联系方式：3群，本人qq1551547950",
+          "author": "芝士奶酪",
+          "version": "1.0.0",
+          "team": "Jiyan, Mortefi, Verina",
+          "members": [
+            "Jiyan",
+            "Mortefi",
+            "Verina"
+          ],
+          "size": 57566,
+          "sizeFormatted": "56.22 KB",
+          "timestamp": 1788858078,
+          "modifiedAt": "2026-09-08T09:01:18.000Z"
+        }
+      ]
+    },
+    {
       "team": "Phoebe, Rover, Zani",
       "slug": "Phoebe_Rover_Zani",
       "members": [
@@ -607,7 +786,7 @@
         "Rover",
         "Zani"
       ],
-      "totalCodes": 1,
+      "totalCodes": 2,
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Phoebe_Rover_Zani.json",
       "codes": [
         {
@@ -628,6 +807,57 @@
           "sizeFormatted": "19.85 KB",
           "timestamp": 1787888368,
           "modifiedAt": "2026-08-28T03:39:28.000Z"
+        },
+        {
+          "filename": "Phoebe_Rover_Zani_芝士奶酪_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.0.zip",
+          "name": "Phoebe_Rover_Zani - 4终夜3终夜循环",
+          "description": "【使用说明】\n1. 共鸣链配置：01赞妮00菲比（1阶奇幻）65光主（5阶千古）。\n2. 共鸣效率适配：测试样本赞妮（衍射套）117.6%菲比（衍射套）194.2%光主（奶套）125.6%，没测试过最低共效，不过赞妮110-120%共效应该够用。\n3. 首发建议赞妮，并关闭ok-ww自动战斗中的开局切奶妈功能。P1为启动轴以压缩时间、保证赞妮4终夜，如果添加闪避第四个终夜尾刀伤害可能打不出就要释放r2。也就是4终夜和r2二选一，本次代码选择保留r2；P2为循环轴时间较宽裕，会根据菲比告解及R的剩余CD，动态安排光主AZ、E等动作填轴。\n4. 其他备注：玩家主要负责追怪、锁敌、站位以及针对怪物招式进行躲避。脚本不会自动判断与怪物的实际距离，也不能保证每次技能或攻击都实际命中目标。普通攻击及等待阶段可以手动闪避，但尽量避免在赞妮强化E、终夜、R2，以及菲比告解、R释放的瞬间闪避或手动释放其他技能，以免打断关键动作。赞妮非R状态下可自行释放F，但强化E已经亮起或正在释放时不要手动F；赞妮R期间也不要主动F，避免影响终夜与R2流程。手动F或闪避一般不会直接重置STEP，但可能使当前动作需要重新确认或延迟执行。此外本代码又设置队伍识别系统，当且仅当赞菲光三个角色才执行本套流程。其他角色组队将会执行ok-ww默认代码。\n由于不同怪物机制、高难环境、角色配置以及不同电脑和游戏运行环境均可能影响轴的复现，因此实际循环速度和稳定性可能存在差异。\n欢迎大家使用并提出优化意见。联系方式：3群，芝士奶酪qq1551547950",
+          "author": "芝士奶酪",
+          "version": "1.0.0",
+          "team": "Phoebe, Rover, Zani",
+          "members": [
+            "Phoebe",
+            "Rover",
+            "Zani"
+          ],
+          "size": 53054,
+          "sizeFormatted": "51.81 KB",
+          "timestamp": 1788944248,
+          "modifiedAt": "2026-09-09T08:57:28.000Z"
+        }
+      ]
+    },
+    {
+      "team": "Phoebe, Verina, Zani",
+      "slug": "Phoebe_Verina_Zani",
+      "members": [
+        "Phoebe",
+        "Verina",
+        "Zani"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Phoebe_Verina_Zani.json",
+      "codes": [
+        {
+          "filename": "Phoebe_Verina_Zani_楽山_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "name": "Phoebe_Verina_Zani",
+          "description": "赞菲维轮椅轴\n样本：01赞妮01菲比2链维里奈带精1奇幻变奏\n共效：赞妮115菲比130维里奈260\n位置：一号位赞妮 二号位菲比 三号位维里奈\n实机已跑通，建议走地BOSS开 赞妮对空能力太差 维里奈理论上2链以下也可以使用 但是可能打不到4R",
+          "author": "楽山",
+          "version": "1.0.0",
+          "team": "Phoebe, Verina, Zani",
+          "members": [
+            "Phoebe",
+            "Verina",
+            "Zani"
+          ],
+          "size": 60448,
+          "sizeFormatted": "59.03 KB",
+          "timestamp": 1788895337,
+          "modifiedAt": "2026-09-08T19:22:17.000Z"
         }
       ]
     },
