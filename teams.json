@@ -522,6 +522,25 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Denia_Mornye_Qingxiao.json",
       "codes": [
         {
+          "filename": "Denia_Mornye_Qingxiao_Kexeyna_2.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Denia_Mornye_Qingxiao_Kexeyna_2.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Denia_Mornye_Qingxiao_Kexeyna_2.0.0.zip",
+          "name": "Denia_Mornye_Qingxiao",
+          "description": "清达莫轮切2.0\n优化了官方三个角色的代码\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t莫宁：0+0（佩戴《异响空灵》），共鸣效率 260.8%\n达妮娅：0+0（佩戴《漪澜浮录》），共鸣效率 120.4%\n清宵：0+1（佩戴专武），共鸣效率 106.8%\n【轴体运行说明】 源码已完成优化升级，系统运行极为稳定。\n上述效率面板实测运行顺畅，数值均为向上取值，轴体容错率较高。\n效率低于面板10%~20%时，只要不过低，仍可打出设计参照的完整循环。\n效率过低时虽无法完成预设的完整流程，但仍可维持基础循环，不会引发技能冷却卡死或角色罚站。更低效率极值未作测试。",
+          "author": "Kexeyna",
+          "version": "2.0.0",
+          "team": "Denia, Mornye, Qingxiao",
+          "members": [
+            "Denia",
+            "Mornye",
+            "Qingxiao"
+          ],
+          "size": 3814,
+          "sizeFormatted": "3.72 KB",
+          "timestamp": 1789199924,
+          "modifiedAt": "2026-09-12T07:58:44.000Z"
+        },
+        {
           "filename": "Denia_Mornye_Qingxiao_楽山_1.0.0.zip",
           "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
           "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Denia_Mornye_Qingxiao_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
@@ -558,25 +577,6 @@
           "sizeFormatted": "77.63 KB",
           "timestamp": 1788807192,
           "modifiedAt": "2026-09-07T18:53:12.000Z"
-        },
-        {
-          "filename": "Denia_Mornye_Qingxiao_钶镀_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Denia_Mornye_Qingxiao_%E9%92%B6%E9%95%80_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Denia_Mornye_Qingxiao_%E9%92%B6%E9%95%80_1.0.0.zip",
-          "name": "Denia_Mornye_Qingxiao",
-          "description": "队伍共鸣链与共鸣效率配置说明：\n\n\n配置条件：\n全员0命（清宵 0+1，达妮娅 0+0，莫宁 0+0）。\n\n\n效率面板：\n1. 莫宁：260.8%（佩戴《奇幻变奏》）\n2. 达妮娅：120.4%（佩戴《漪澜浮录》）\n3. 清宵：106.8%（佩戴专武）\n\n\n轴体说明：\n实测上述配置下运行顺畅。面板数值均为向上取值，本轴容错率较高，并非严苛卡冷却的极快轴。\n\n\n效率低于面板10%~20%时，只要不过低，仍可打出设计参照的完整循环。即便效率过低无法完成预设的完整流程，也能维持正常的基础循环，不会出现因缺少某个技能而卡轴或罚站的情况。更低效率极值未作测试。",
-          "author": "钶镀",
-          "version": "1.0.0",
-          "team": "Denia, Mornye, Qingxiao",
-          "members": [
-            "Denia",
-            "Mornye",
-            "Qingxiao"
-          ],
-          "size": 3823,
-          "sizeFormatted": "3.73 KB",
-          "timestamp": 1787755598,
-          "modifiedAt": "2026-08-26T14:46:38.000Z"
         }
       ]
     },
@@ -726,23 +726,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Hiyuki_Lynae_Suisui.json",
       "codes": [
         {
-          "filename": "Hiyuki_Lynae_Suisui_钶镀_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lynae_Suisui_%E9%92%B6%E9%95%80_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hiyuki_Lynae_Suisui_%E9%92%B6%E9%95%80_1.0.0.zip",
+          "filename": "Hiyuki_Lynae_Suisui_Kexeyna_2.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lynae_Suisui_Kexeyna_2.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hiyuki_Lynae_Suisui_Kexeyna_2.0.0.zip",
           "name": "Hiyuki_Lynae_Suisui",
-          "description": "队伍共鸣链与共鸣效率配置参数：\n【配置参数】\n绯雪：0+1（佩戴专武），共鸣效率 122.4%\n穗穗：0+1（佩戴专武），共鸣效率 297.8%\n琳奈：0+0（佩戴《相位涟漪》），共鸣效率 125.2%\n【轴体运行说明】\n上述效率面板实测运行顺畅，数值均为向上取值。\n轴体具备一定容错率，若效率低于当前面板，无法保证打出预设的完整流程循环。\n效率过低时仍可维持基础循环，不会引发技能冷却卡死或角色罚站。更低效率极值未作测试。",
-          "author": "钶镀",
-          "version": "1.0.0",
+          "description": "绯琳穗2.0\t\t\t\t\t\t优化了穗穗启动和琳奈\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n穗穗：0+1（佩戴专武），共鸣效率 297.8%\n琳奈：0+0（佩戴《相位涟漪》），共鸣效率 125.2%\n绯雪：0+1（佩戴专武），共鸣效率 122.4%\n【轴体运行说明】 源码已完成优化升级，系统运行极为稳定。\n上述效率面板实测运行顺畅，数值均为向上取值。\n效率若低于当前面板不一定能跑通预设的完整循环。\n效率过低时仍可维持正常的基础循环，不会引发技能冷却卡死或角色罚站。更低效率极值未作测试。",
+          "author": "Kexeyna",
+          "version": "2.0.0",
           "team": "Hiyuki, Lynae, Suisui",
           "members": [
             "Hiyuki",
             "Lynae",
             "Suisui"
           ],
-          "size": 5899,
-          "sizeFormatted": "5.76 KB",
-          "timestamp": 1787755655,
-          "modifiedAt": "2026-08-26T14:47:35.000Z"
+          "size": 6148,
+          "sizeFormatted": "6 KB",
+          "timestamp": 1789199839,
+          "modifiedAt": "2026-09-12T07:57:19.000Z"
         }
       ]
     },
