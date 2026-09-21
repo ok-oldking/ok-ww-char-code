@@ -6,7 +6,7 @@
     "Lynae",
     "Mornye"
   ],
-  "totalCodes": 2,
+  "totalCodes": 3,
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Aemeath_Lynae_Mornye.json",
   "codes": [
     {
@@ -46,6 +46,25 @@
       "sizeFormatted": "87.9 KB",
       "timestamp": 1787107406,
       "modifiedAt": "2026-08-19T02:43:26.000Z"
+    },
+    {
+      "filename": "Aemeath_Lynae_Mornye_楽山_1.1.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "name": "Aemeath_Lynae_Mornye",
+      "description": "爱琳莫标准轴\n位置：一号位爱弥斯 二号位琳奈 三号位莫宁\n练度达到基本推荐练度即可\n此代码在之前群友代码的基础上，增加了对于琳奈协奏值的保底，确保在满协奏的情况下变奏爱弥斯。",
+      "author": "楽山",
+      "version": "1.1.0",
+      "team": "Aemeath, Lynae, Mornye",
+      "members": [
+        "Aemeath",
+        "Lynae",
+        "Mornye"
+      ],
+      "size": 5851,
+      "sizeFormatted": "5.71 KB",
+      "timestamp": 1789993280,
+      "modifiedAt": "2026-09-21T12:21:20.000Z"
     }
   ]
 }
