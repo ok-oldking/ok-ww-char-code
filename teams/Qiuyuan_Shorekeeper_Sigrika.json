@@ -10,23 +10,23 @@
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Qiuyuan_Shorekeeper_Sigrika.json",
   "codes": [
     {
-      "filename": "Qiuyuan_Shorekeeper_Sigrika_楽山_1.0.0.zip",
-      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Qiuyuan_Shorekeeper_Sigrika_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Qiuyuan_Shorekeeper_Sigrika_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "filename": "Qiuyuan_Shorekeeper_Sigrika_楽山_1.1.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Qiuyuan_Shorekeeper_Sigrika_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Qiuyuan_Shorekeeper_Sigrika_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
       "name": "Qiuyuan_Shorekeeper_Sigrika",
-      "description": "西仇守轮切轴\n一号位西格莉卡 二号位仇远 三号位守岸人\n样本01西格莉卡01仇远01守岸人\n西格莉卡150共效（理论上135即可）仇远130共效守岸人260共效\n测试已成功跑通，加装了保底机制，但由于角色机制问题，容易被肘击打断，在部分攻击欲望强的BOSS实战中容易爆轴，对空能力差，一旦BOSS起飞容易空A，请选择合适的BOSS使用。",
+      "description": "西仇守轮切轴 \n一号位西格莉卡 二号位仇远 三号位守岸人 \n样本01西格莉卡01仇远01守岸人 \n西格莉卡150共效（理论上135即可）仇远130共效守岸人260共效 \n测试已成功跑通，加装了保底机制，但由于角色机制问题，容易被肘击打断，在部分攻击欲望强的BOSS实战中容易爆轴，对空能力差，一旦BOSS起飞容易空A，请选择合适的BOSS使用。\n2026/09/21 优化了三个角色的流程",
       "author": "楽山",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "team": "Qiuyuan, Shorekeeper, Sigrika",
       "members": [
         "Qiuyuan",
         "Shorekeeper",
         "Sigrika"
       ],
-      "size": 49242,
-      "sizeFormatted": "48.09 KB",
-      "timestamp": 1787658159,
-      "modifiedAt": "2026-08-25T11:42:39.000Z"
+      "size": 59614,
+      "sizeFormatted": "58.22 KB",
+      "timestamp": 1789953231,
+      "modifiedAt": "2026-09-21T01:13:51.000Z"
     }
   ]
 }
