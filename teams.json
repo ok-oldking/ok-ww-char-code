@@ -2,8 +2,8 @@
   "repository": "ok-oldking/ok-ww-char-code",
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
-  "totalTeams": 30,
-  "totalCodes": 39,
+  "totalTeams": 31,
+  "totalCodes": 40,
   "teams": [
     {
       "team": "Aemeath, Augusta, Baizhi",
@@ -462,6 +462,38 @@
           "sizeFormatted": "8.08 KB",
           "timestamp": 1789119228,
           "modifiedAt": "2026-09-11T09:33:48.000Z"
+        }
+      ]
+    },
+    {
+      "team": "Cantarella, Jinhsi, Phrolova",
+      "slug": "Cantarella_Jinhsi_Phrolova",
+      "members": [
+        "Cantarella",
+        "Jinhsi",
+        "Phrolova"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cantarella_Jinhsi_Phrolova.json",
+      "codes": [
+        {
+          "filename": "Cantarella_Jinhsi_Phrolova_EEEEEEEEdison_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Jinhsi_Phrolova_EEEEEEEEdison_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Jinhsi_Phrolova_EEEEEEEEdison_1.0.0.zip",
+          "name": "Cantarella_Jinhsi_Phrolova",
+          "description": "适合高练度今汐，复刻用，实战容错低，参考视频：https://www.bilibili.com/video/BV1Rq8Rz6EB5/?t=144\n共鸣效率：该打法共鸣效率越高越舒服，实测共鸣效率今汐142.8，坎特蕾拉高天套172.4，今汐主要观察是否每轮都能按时开大，坎特蕾拉主要看第一个大招出的快不快\n共鸣链：均0链\n开局切治疗开关不影响，一号位坎特蕾拉。",
+          "author": "EEEEEEEEdison",
+          "version": "1.0.0",
+          "team": "Cantarella, Jinhsi, Phrolova",
+          "members": [
+            "Cantarella",
+            "Jinhsi",
+            "Phrolova"
+          ],
+          "size": 15770,
+          "sizeFormatted": "15.4 KB",
+          "timestamp": 1790267091,
+          "modifiedAt": "2026-09-24T16:24:51.000Z"
         }
       ]
     },
