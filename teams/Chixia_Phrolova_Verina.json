@@ -1,0 +1,32 @@
+{
+  "team": "Chixia, Phrolova, Verina",
+  "slug": "Chixia_Phrolova_Verina",
+  "members": [
+    "Chixia",
+    "Phrolova",
+    "Verina"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Chixia_Phrolova_Verina.json",
+  "codes": [
+    {
+      "filename": "Chixia_Phrolova_Verina_琉璃_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip",
+      "name": "Chixia_Phrolova_Verina",
+      "description": "弗维刷boss2.0（）内置 不同连招模板！！！可在角色代码处改弗和维的，适配0-6弗和0-6维，不过0弗的话，除非你没其他高链角色和角色池少的话，不让应该是没其他配队快的，不过也可以试试\n1.全适配共鸣链\n2.无共鸣效率需求\n3.谁都可以1号位进场\n4.开启自动切换治疗位，关闭开启大招\n5.维4c带无归最好\n6.刷boss队",
+      "author": "琉璃",
+      "version": "1.0.0",
+      "team": "Chixia, Phrolova, Verina",
+      "members": [
+        "Chixia",
+        "Phrolova",
+        "Verina"
+      ],
+      "size": 4059,
+      "sizeFormatted": "3.96 KB",
+      "timestamp": 1791736919,
+      "modifiedAt": "2026-10-11T16:41:59.000Z"
+    }
+  ]
+}

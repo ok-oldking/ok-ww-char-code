@@ -29,30 +29,11 @@
       "modifiedAt": "2026-08-19T02:51:38.000Z"
     },
     {
-      "filename": "Aemeath_Lynae_Mornye_楽山_1.0.0.zip",
-      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-      "name": "Aemeath_Lynae_Mornye",
-      "description": "爱琳莫5R2椰果轴\n此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意",
-      "author": "楽山",
-      "version": "1.0.0",
-      "team": "Aemeath, Lynae, Mornye",
-      "members": [
-        "Aemeath",
-        "Lynae",
-        "Mornye"
-      ],
-      "size": 90009,
-      "sizeFormatted": "87.9 KB",
-      "timestamp": 1787107406,
-      "modifiedAt": "2026-08-19T02:43:26.000Z"
-    },
-    {
       "filename": "Aemeath_Lynae_Mornye_楽山_1.1.0.zip",
       "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
       "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
       "name": "Aemeath_Lynae_Mornye",
-      "description": "爱琳莫标准轴\n位置：一号位爱弥斯 二号位琳奈 三号位莫宁\n练度达到基本推荐练度即可\n此代码在之前群友代码的基础上，增加了对于琳奈协奏值的保底，确保在满协奏的情况下变奏爱弥斯。",
+      "description": "爱琳莫5R2椰果轴 （0链爱适用）\n样本：61爱00琳10莫（5阶异响）\n共效：爱弥斯128 琳奈142 莫宁290\n位置：一号位莫宁 二号位琳奈 三号位爱弥斯\n\n此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意\n\n【优化】10/12\n1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 E 和 R 用掉。\n2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 R，两段挨得近的时候，R 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 R，大约快 0.2~0.5 秒，也不会把第二段打断。",
       "author": "楽山",
       "version": "1.1.0",
       "team": "Aemeath, Lynae, Mornye",
@@ -61,10 +42,29 @@
         "Lynae",
         "Mornye"
       ],
-      "size": 5851,
-      "sizeFormatted": "5.71 KB",
-      "timestamp": 1789993280,
-      "modifiedAt": "2026-09-21T12:21:20.000Z"
+      "size": 92780,
+      "sizeFormatted": "90.61 KB",
+      "timestamp": 1791762759,
+      "modifiedAt": "2026-10-11T23:52:39.000Z"
+    },
+    {
+      "filename": "Aemeath_Lynae_Mornye_楽山_2.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
+      "name": "Aemeath_Lynae_Mornye",
+      "description": "爱琳莫5R2（1链及以上爱弥斯限定）\n样本：61爱 00琳 11莫\n共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）\n位置：一号位莫宁 二号位琳奈 三号位 爱弥斯\n实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2K/1K下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启N卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。",
+      "author": "楽山",
+      "version": "2.0.0",
+      "team": "Aemeath, Lynae, Mornye",
+      "members": [
+        "Aemeath",
+        "Lynae",
+        "Mornye"
+      ],
+      "size": 117696,
+      "sizeFormatted": "114.94 KB",
+      "timestamp": 1791762694,
+      "modifiedAt": "2026-10-11T23:51:34.000Z"
     }
   ]
 }

@@ -29,23 +29,23 @@
       "modifiedAt": "2026-09-13T22:52:56.000Z"
     },
     {
-      "filename": "Hiyuki_Lucilla_Suisui_楽山_1.1.0.zip",
-      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "filename": "Hiyuki_Lucilla_Suisui_楽山_1.1.1.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
       "name": "Hiyuki_Lucilla_Suisui",
-      "description": "绯洛穗启动3居循环4居轴 \n样本：61绯雪00洛00穗 \n共效：绯雪127洛瑟拉161穗穗270 \n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n提示：2链以下绯雪是否能有三居合未知，未实测\n绯洛穗 v1.1.0 优化内容\n1. 绯雪启动轴缩短为 A3→处决(有提示时)/闪避→EE→三居合→重击→R2，开场容错更高\n2. 穗穗启动轴强化E被打断会补按，确认放出才往下走\n3. 穗穗循环轴：回路满了R没亮会继续打到亮；没攒满三格时改普攻；放R前协奏不够先补\n4. 绯雪R2打死怪后先等下一波再切穗穗，不再愣住\n5. 洛瑟拉长按E按录屏校准到完美焦距(0.95s)，对焦期间连点R，回路一满马上开R\n6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下",
+      "description": "绯洛穗启动3居循环4居轴\n样本：61绯雪00洛00穗\n共效：绯雪127洛瑟拉161穗穗270\n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n实机已跑通。v1.1.0 优化：\n1. 绯雪启动轴缩短为 A3→处决(有提示时)/闪避→EE→三居合→重击→R2，开场容错更高\n2. 穗穗启动轴强化E被打断会补按，确认放出才往下走\n3. 穗穗循环轴：回路满了R没亮会继续打到亮；没攒满三格时改普攻；放R前协奏不够先补\n4. 绯雪R2打死怪后先等下一波再切穗穗，不再愣住\n5. 洛瑟拉长按E按录屏校准到完美焦距(0.95s)，对焦期间连点R，回路一满马上开R\n6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下\nv1.1.1 优化：\n1. 洛瑟拉对焦成功后等追光结算完(约0.9s)再开R，不再打断追光少拿协奏，保证绯雪能变奏入场\n2. 洛瑟拉判断R是否放出更严格，被特效挡住画面不会误判成已放出而停按R\n3. 洛瑟拉回场时如果还在变身(追忆)状态，会自动长按攻击把照片打完退出，再正常交棒\n4. 修复R刚好在超时前放出时不打变身段、带着变身状态下场的问题",
       "author": "楽山",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "team": "Hiyuki, Lucilla, Suisui",
       "members": [
         "Hiyuki",
         "Lucilla",
         "Suisui"
       ],
-      "size": 35339,
-      "sizeFormatted": "34.51 KB",
-      "timestamp": 1791456904,
-      "modifiedAt": "2026-10-08T10:55:04.000Z"
+      "size": 37187,
+      "sizeFormatted": "36.32 KB",
+      "timestamp": 1791802795,
+      "modifiedAt": "2026-10-12T10:59:55.000Z"
     },
     {
       "filename": "Hiyuki_Lucilla_Suisui_进入光明2绯0洛3穗_1.0.0.zip",

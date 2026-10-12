@@ -548,11 +548,11 @@
 
     <div class="stats-bar">
       <div class="stat-card">
-        <div class="stat-value">38</div>
+        <div class="stat-value">39</div>
         <div class="stat-label">Total Teams</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value">51</div>
+        <div class="stat-value">52</div>
         <div class="stat-label">Total Code Archives</div>
       </div>
       <div class="stat-card">
@@ -568,7 +568,7 @@
         </svg>
         <input type="text" id="searchInput" class="search-input" placeholder="Search team, character, author, or code name..." autocomplete="off">
       </div>
-      <div class="filter-info" id="filterCount">Showing all 51 codes in 38 teams</div>
+      <div class="filter-info" id="filterCount">Showing all 52 codes in 39 teams</div>
     </div>
 
     <div class="teams-container" id="teamsContainer">
@@ -1123,52 +1123,34 @@ Tips：如果发现启动轴最后爱弥斯变奏入场强化E没有亮起就重
                 </div>
               </article>
             
-              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫5r2椰果轴
-此轴已经实机跑通，可以复现，但是实战中boss不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意 aemeath_lynae_mornye_楽山_1.0.0.zip aemeath lynae mornye">
-                <div class="code-card-main">
-                  <div class="code-title-row">
-                    <h3 class="code-name">Aemeath_Lynae_Mornye</h3>
-                    <span class="version-tag">v1.0.0</span>
-                  </div>
-                  <p class="code-desc">爱琳莫5R2椰果轴
-此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意</p>
-                  <div class="code-meta">
-                    <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 87.9 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Aemeath_Lynae_Mornye_楽山_1.0.0.zip</span>
-                  </div>
-                </div>
-                <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip" download="Aemeath_Lynae_Mornye_楽山_1.0.0.zip" class="btn-download" title="Download Zip File">
-                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-                    </svg>
-                    Download ZIP
-                  </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip')" title="Copy direct download URL">
-                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
-                    </svg>
-                  </button>
-                </div>
-              </article>
-            
-              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫标准轴
-位置：一号位爱弥斯 二号位琳奈 三号位莫宁
-练度达到基本推荐练度即可
-此代码在之前群友代码的基础上，增加了对于琳奈协奏值的保底，确保在满协奏的情况下变奏爱弥斯。 aemeath_lynae_mornye_楽山_1.1.0.zip aemeath lynae mornye">
+              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫5r2椰果轴 （0链爱适用）
+样本：61爱00琳10莫（5阶异响）
+共效：爱弥斯128 琳奈142 莫宁290
+位置：一号位莫宁 二号位琳奈 三号位爱弥斯
+
+此轴已经实机跑通，可以复现，但是实战中boss不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意
+
+【优化】10/12
+1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 e 和 r 用掉。
+2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 r，两段挨得近的时候，r 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 r，大约快 0.2~0.5 秒，也不会把第二段打断。 aemeath_lynae_mornye_楽山_1.1.0.zip aemeath lynae mornye">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Aemeath_Lynae_Mornye</h3>
                     <span class="version-tag">v1.1.0</span>
                   </div>
-                  <p class="code-desc">爱琳莫标准轴
-位置：一号位爱弥斯 二号位琳奈 三号位莫宁
-练度达到基本推荐练度即可
-此代码在之前群友代码的基础上，增加了对于琳奈协奏值的保底，确保在满协奏的情况下变奏爱弥斯。</p>
+                  <p class="code-desc">爱琳莫5R2椰果轴 （0链爱适用）
+样本：61爱00琳10莫（5阶异响）
+共效：爱弥斯128 琳奈142 莫宁290
+位置：一号位莫宁 二号位琳奈 三号位爱弥斯
+
+此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意
+
+【优化】10/12
+1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 E 和 R 用掉。
+2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 R，两段挨得近的时候，R 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 R，大约快 0.2~0.5 秒，也不会把第二段打断。</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 5.71 KB</span>
+                    <span class="meta-item"><strong>Size:</strong> 90.61 KB</span>
                     <span class="meta-item"><strong>File:</strong> Aemeath_Lynae_Mornye_楽山_1.1.0.zip</span>
                   </div>
                 </div>
@@ -1180,6 +1162,42 @@ Tips：如果发现启动轴最后爱弥斯变奏入场强化E没有亮起就重
                     Download ZIP
                   </a>
                   <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            
+              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫5r2（1链及以上爱弥斯限定）
+样本：61爱 00琳 11莫
+共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）
+位置：一号位莫宁 二号位琳奈 三号位 爱弥斯
+实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2k/1k下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启n卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。 aemeath_lynae_mornye_楽山_2.0.0.zip aemeath lynae mornye">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Aemeath_Lynae_Mornye</h3>
+                    <span class="version-tag">v2.0.0</span>
+                  </div>
+                  <p class="code-desc">爱琳莫5R2（1链及以上爱弥斯限定）
+样本：61爱 00琳 11莫
+共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）
+位置：一号位莫宁 二号位琳奈 三号位 爱弥斯
+实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2K/1K下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启N卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 楽山</span>
+                    <span class="meta-item"><strong>Size:</strong> 114.94 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Aemeath_Lynae_Mornye_楽山_2.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip" download="Aemeath_Lynae_Mornye_楽山_2.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -2414,6 +2432,69 @@ Tips：F进入战斗后应该快速点击鼠标中键，加速锁定怪物 如�
           </div>
         </section>
       
+        <section class="team-group" data-team="chixia, phrolova, verina" data-members="chixia phrolova verina">
+          <div class="team-header">
+            <div class="team-title-wrap">
+              <h2 class="team-title">
+                Chixia, Phrolova, Verina
+              </h2>
+              <div class="member-chips">
+                <span class="chip-member">Chixia</span><span class="chip-member">Phrolova</span><span class="chip-member">Verina</span>
+              </div>
+            </div>
+            <div class="team-header-actions">
+              <a href="https://okwwcharcode.ok-script.com/teams/Chixia_Phrolova_Verina.json" class="btn-team-json" target="_blank" title="Team JSON API">
+                <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                Chixia_Phrolova_Verina.json
+              </a>
+            </div>
+          </div>
+
+          <div class="codes-grid">
+            
+              <article class="code-card" data-search="chixia_phrolova_verina chixia, phrolova, verina 琉璃 弗维刷boss2.0（）内置 不同连招模板！！！可在角色代码处改弗和维的，适配0-6弗和0-6维，不过0弗的话，除非你没其他高链角色和角色池少的话，不让应该是没其他配队快的，不过也可以试试
+1.全适配共鸣链
+2.无共鸣效率需求
+3.谁都可以1号位进场
+4.开启自动切换治疗位，关闭开启大招
+5.维4c带无归最好
+6.刷boss队 chixia_phrolova_verina_琉璃_1.0.0.zip chixia phrolova verina">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Chixia_Phrolova_Verina</h3>
+                    <span class="version-tag">v1.0.0</span>
+                  </div>
+                  <p class="code-desc">弗维刷boss2.0（）内置 不同连招模板！！！可在角色代码处改弗和维的，适配0-6弗和0-6维，不过0弗的话，除非你没其他高链角色和角色池少的话，不让应该是没其他配队快的，不过也可以试试
+1.全适配共鸣链
+2.无共鸣效率需求
+3.谁都可以1号位进场
+4.开启自动切换治疗位，关闭开启大招
+5.维4c带无归最好
+6.刷boss队</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 琉璃</span>
+                    <span class="meta-item"><strong>Size:</strong> 3.96 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Chixia_Phrolova_Verina_琉璃_1.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip" download="Chixia_Phrolova_Verina_琉璃_1.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            
+          </div>
+        </section>
+      
         <section class="team-group" data-team="denia, mornye, qingxiao" data-members="denia mornye qingxiao">
           <div class="team-header">
             <div class="team-title-wrap">
@@ -2676,49 +2757,57 @@ Tips：F进入战斗后应该快速点击鼠标中键，加速锁定怪物 如�
                 </div>
               </article>
             
-              <article class="code-card" data-search="hiyuki_lucilla_suisui hiyuki, lucilla, suisui 楽山 绯洛穗启动3居循环4居轴 
-样本：61绯雪00洛00穗 
-共效：绯雪127洛瑟拉161穗穗270 
+              <article class="code-card" data-search="hiyuki_lucilla_suisui hiyuki, lucilla, suisui 楽山 绯洛穗启动3居循环4居轴
+样本：61绯雪00洛00穗
+共效：绯雪127洛瑟拉161穗穗270
 位置：一号位穗穗 二号位洛瑟拉 三号位绯雪
-提示：2链以下绯雪是否能有三居合未知，未实测
-绯洛穗 v1.1.0 优化内容
+实机已跑通。v1.1.0 优化：
 1. 绯雪启动轴缩短为 a3→处决(有提示时)/闪避→ee→三居合→重击→r2，开场容错更高
 2. 穗穗启动轴强化e被打断会补按，确认放出才往下走
 3. 穗穗循环轴：回路满了r没亮会继续打到亮；没攒满三格时改普攻；放r前协奏不够先补
 4. 绯雪r2打死怪后先等下一波再切穗穗，不再愣住
 5. 洛瑟拉长按e按录屏校准到完美焦距(0.95s)，对焦期间连点r，回路一满马上开r
-6. 洛瑟拉变奏入场更早按e；变身结束协奏满就切绯雪，不再多a一下 hiyuki_lucilla_suisui_楽山_1.1.0.zip hiyuki lucilla suisui">
+6. 洛瑟拉变奏入场更早按e；变身结束协奏满就切绯雪，不再多a一下
+v1.1.1 优化：
+1. 洛瑟拉对焦成功后等追光结算完(约0.9s)再开r，不再打断追光少拿协奏，保证绯雪能变奏入场
+2. 洛瑟拉判断r是否放出更严格，被特效挡住画面不会误判成已放出而停按r
+3. 洛瑟拉回场时如果还在变身(追忆)状态，会自动长按攻击把照片打完退出，再正常交棒
+4. 修复r刚好在超时前放出时不打变身段、带着变身状态下场的问题 hiyuki_lucilla_suisui_楽山_1.1.1.zip hiyuki lucilla suisui">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Hiyuki_Lucilla_Suisui</h3>
-                    <span class="version-tag">v1.1.0</span>
+                    <span class="version-tag">v1.1.1</span>
                   </div>
-                  <p class="code-desc">绯洛穗启动3居循环4居轴 
-样本：61绯雪00洛00穗 
-共效：绯雪127洛瑟拉161穗穗270 
+                  <p class="code-desc">绯洛穗启动3居循环4居轴
+样本：61绯雪00洛00穗
+共效：绯雪127洛瑟拉161穗穗270
 位置：一号位穗穗 二号位洛瑟拉 三号位绯雪
-提示：2链以下绯雪是否能有三居合未知，未实测
-绯洛穗 v1.1.0 优化内容
+实机已跑通。v1.1.0 优化：
 1. 绯雪启动轴缩短为 A3→处决(有提示时)/闪避→EE→三居合→重击→R2，开场容错更高
 2. 穗穗启动轴强化E被打断会补按，确认放出才往下走
 3. 穗穗循环轴：回路满了R没亮会继续打到亮；没攒满三格时改普攻；放R前协奏不够先补
 4. 绯雪R2打死怪后先等下一波再切穗穗，不再愣住
 5. 洛瑟拉长按E按录屏校准到完美焦距(0.95s)，对焦期间连点R，回路一满马上开R
-6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下</p>
+6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下
+v1.1.1 优化：
+1. 洛瑟拉对焦成功后等追光结算完(约0.9s)再开R，不再打断追光少拿协奏，保证绯雪能变奏入场
+2. 洛瑟拉判断R是否放出更严格，被特效挡住画面不会误判成已放出而停按R
+3. 洛瑟拉回场时如果还在变身(追忆)状态，会自动长按攻击把照片打完退出，再正常交棒
+4. 修复R刚好在超时前放出时不打变身段、带着变身状态下场的问题</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 34.51 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Hiyuki_Lucilla_Suisui_楽山_1.1.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 36.32 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Hiyuki_Lucilla_Suisui_楽山_1.1.1.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip" download="Hiyuki_Lucilla_Suisui_楽山_1.1.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip" download="Hiyuki_Lucilla_Suisui_楽山_1.1.1.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
