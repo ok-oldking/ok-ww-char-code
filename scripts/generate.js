@@ -13,6 +13,44 @@ const CNAME_PATH = path.join(ROOT_DIR, 'CNAME');
 const BASE_DOMAIN = 'okwwcharcode.ok-script.com';
 const BASE_URL = `https://${BASE_DOMAIN}`;
 
+// 显示层中文译名表：只影响 index.html 的渲染结果。
+// teams.json / teams/*.json / codes/*.zip 里的数据一律保持原始英文，保证 slug、分组键与 API 地址不变。
+const CHARACTER_NAMES_PATH = path.join(__dirname, 'character-names.json');
+
+function loadCharacterNames() {
+  try {
+    const raw = JSON.parse(fs.readFileSync(CHARACTER_NAMES_PATH, 'utf8'));
+    return (raw && raw.characters) ? raw.characters : raw;
+  } catch (err) {
+    console.warn(`[WARN] Failed to load scripts/character-names.json (${err.message}). Falling back to original names.`);
+    return {};
+  }
+}
+
+const CHARACTER_NAMES = loadCharacterNames();
+const unmappedNames = new Set();
+
+function toDisplayName(name) {
+  const key = String(name).trim();
+  if (CHARACTER_NAMES[key]) {
+    return CHARACTER_NAMES[key];
+  }
+  if (/^[\x20-\x7E]+$/.test(key)) {
+    unmappedNames.add(key);
+  }
+  return key;
+}
+
+// 按原有分隔符（, ，/）逐个翻译队伍名，分隔符与空白保持原样。
+function toDisplayTeamText(team) {
+  return String(team)
+    .split(/([,，/])/)
+    .map(part => (/^[,，/]$/.test(part)
+      ? part
+      : part.replace(/^(\s*)([\s\S]*?)(\s*)$/, (m, lead, core, trail) => lead + toDisplayName(core) + trail)))
+    .join('');
+}
+
 function getGitCommitTimestamp(filePath) {
   try {
     const relPath = path.relative(ROOT_DIR, filePath).replace(/\\/g, '/');
@@ -741,15 +779,18 @@ function generateHtml(teamsGrouped, allItems, repoName) {
     </div>
 
     <div class="teams-container" id="teamsContainer">
-      ${teamsList.map(teamGroup => `
+      ${teamsList.map(teamGroup => {
+        const displayTeamName = toDisplayTeamText(teamGroup.team);
+        const displayMembers = teamGroup.members.map(toDisplayName);
+        return `
         <section class="team-group" data-team="${teamGroup.team.toLowerCase()}" data-members="${teamGroup.members.map(m => m.toLowerCase()).join(' ')}">
           <div class="team-header">
             <div class="team-title-wrap">
               <h2 class="team-title">
-                ${teamGroup.team}
+                ${displayTeamName}
               </h2>
               <div class="member-chips">
-                ${teamGroup.members.map(member => `<span class="chip-member">${member}</span>`).join('')}
+                ${displayMembers.map(member => `<span class="chip-member">${member}</span>`).join('')}
               </div>
             </div>
             <div class="team-header-actions">
@@ -762,7 +803,7 @@ function generateHtml(teamsGrouped, allItems, repoName) {
 
           <div class="codes-grid">
             ${teamGroup.codes.map(code => `
-              <article class="code-card" data-search="${(code.name + ' ' + code.team + ' ' + code.author + ' ' + code.description + ' ' + code.filename + ' ' + code.members.join(' ')).toLowerCase()}">
+              <article class="code-card" data-search="${(code.name + ' ' + code.team + ' ' + code.author + ' ' + code.description + ' ' + code.filename + ' ' + code.members.join(' ') + ' ' + displayTeamName + ' ' + displayMembers.join(' ')).toLowerCase()}">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">${code.name}</h3>
@@ -792,7 +833,8 @@ function generateHtml(teamsGrouped, allItems, repoName) {
             `).join('')}
           </div>
         </section>
-      `).join('')}
+        `;
+      }).join('')}
     </div>
 
     <div class="empty-state" id="emptyState">
@@ -959,6 +1001,10 @@ function main() {
   const htmlContent = generateHtml(groupedTeams, rawItems, repo);
   fs.writeFileSync(INDEX_HTML_PATH, htmlContent, 'utf8');
   console.log(`[OK] Generated static page: index.html`);
+
+  if (unmappedNames.size > 0) {
+    console.log(`[WARN] ${unmappedNames.size} name(s) not found in scripts/character-names.json (displayed as-is): ${Array.from(unmappedNames).sort().join(', ')}`);
+  }
 
   console.log('--- Static Generation Completed Successfully ---');
 }
