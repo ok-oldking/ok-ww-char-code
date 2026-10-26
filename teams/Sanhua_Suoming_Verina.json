@@ -1,0 +1,32 @@
+{
+  "team": "Sanhua, Suoming, Verina",
+  "slug": "Sanhua_Suoming_Verina",
+  "members": [
+    "Sanhua",
+    "Suoming",
+    "Verina"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Sanhua_Suoming_Verina.json",
+  "codes": [
+    {
+      "filename": "Sanhua_Suoming_Verina_楽山_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Sanhua_Suoming_Verina_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Sanhua_Suoming_Verina_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "name": "Sanhua_Suoming_Verina",
+      "description": "锁散维轮椅轴\n样本：60散（武器千古）01锁60维（带奇幻变奏）\n共效：散华180 锁（衔梦照世套4C首位）125 维里奈260\n位置：一号位散华 二号位锁瞑 三号位维里奈\n适用场景：【矩阵/深塔】\n实机已跑通，复现难度低，锁瞑性能太差，站场流程过长，很容易被肘，而且只能打打走地BOSS，0链维里奈应该也可以适配，增加了相关的保底，但是没有实测。",
+      "author": "楽山",
+      "version": "1.0.0",
+      "team": "Sanhua, Suoming, Verina",
+      "members": [
+        "Sanhua",
+        "Suoming",
+        "Verina"
+      ],
+      "size": 36541,
+      "sizeFormatted": "35.68 KB",
+      "timestamp": 1792946069,
+      "modifiedAt": "2026-10-25T16:34:29.000Z"
+    }
+  ]
+}

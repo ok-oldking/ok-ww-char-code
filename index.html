@@ -548,11 +548,11 @@
 
     <div class="stats-bar">
       <div class="stat-card">
-        <div class="stat-value">46</div>
+        <div class="stat-value">47</div>
         <div class="stat-label">Total Teams</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value">64</div>
+        <div class="stat-value">65</div>
         <div class="stat-label">Total Code Archives</div>
       </div>
       <div class="stat-card">
@@ -568,7 +568,7 @@
         </svg>
         <input type="text" id="searchInput" class="search-input" placeholder="Search team, character, author, or code name..." autocomplete="off">
       </div>
-      <div class="filter-info" id="filterCount">Showing all 64 codes in 46 teams</div>
+      <div class="filter-info" id="filterCount">Showing all 65 codes in 47 teams</div>
     </div>
 
     <div class="teams-container" id="teamsContainer">
@@ -3605,7 +3605,9 @@ v1.1.1 优化：
                 </div>
               </article>
             
-              <article class="code-card" data-search="心锁守轮椅轴日常 hsin, shorekeeper, suoming nympheon 心锁守轮椅轴日常【部分日常】【高容错战斗】
+              <article class="code-card" data-search="心锁守轮椅轴日常 hsin, shorekeeper, suoming nympheon 心锁守轮椅轴日常【高容错】
+
+定位：矩阵、深塔、海墟请使用楽山的心锁守轴；本轴以保下限和容错为主，适合刷副本、打聚落。
 
 适用范围：仅保证副本和聚落场景可用。以守岸人为起点推进完整一轮流程，适合刷副本、打聚落，不保证逛街时频繁遭遇少量怪物的零散战斗。
 
@@ -3614,6 +3616,11 @@ v1.1.1 优化：
 2. 三个角色均无硬性共鸣效率要求。心已脱下声骸完成实测，无额外共鸣效率要求；锁冥以辅助为主，建议尽量提高共鸣效率，减少站场补能。锁冥效率不足时可能长时间站场，容易暴毙。
 3. 执行一号位为守岸人，启动时先确认守岸人出场。
 4. 心使用同奏模态；锁冥装备暗鸟声骸；守岸人装备无归的谬误声骸。
+
+与楽山心锁守 2.0.0 的区别：
+1. 可以逆序使用锁冥的两次延奏：首次 r 未就绪、协奏已满时先普通延奏心，回锁冥后再补 r 同奏心；r 和协奏同时可用时仍优先 r。
+2. 完整一轮至少成功施放一次锁冥 r；心必须补出终结 r；守岸人必须满协奏才能切人。
+3. 首次切心已是后半形态，就跳过第一次回锁，直接继续后半部分流程。
 
 流程特色：
 - 根据实际能量、技能冷却和角色形态推进，不要求满能量开局，不依赖固定竞速轴或角色间高速合轴。
@@ -3622,6 +3629,8 @@ v1.1.1 优化：
 - 锁冥刻心念长按期间不插入 r、q 或处决等其他操作；启动被打断时有恢复和重试处理。
 - 心根据实际形态及重击就绪图像推进，兼容高链首次重击直接就绪；进入后半段形态时继续后半流程。
 - 守岸人满协奏经短暂停顿与复核后 q 切锁；心终结 r 后补普攻，满协奏再 q 切守。
+- 处决只认怪物身上的实际 f 提示；单次最多尝试 3 秒，未触发就继续动作，同一提示不反复抢占流程；刻心念长按期间仍禁止处决。
+- 参考楽山心锁守 2.0.0 优化强化 e 保留、后台按键时长、重击被吞后的有限重按和统御识别开销；保留本轴低共鸣效率补能与严格交棒条件。
 - 支持后台运行，关键动作保留结果确认与中断恢复。
 
 实测环境：4k 分辨率、极致画质、所有特效和光追全开。
@@ -3629,9 +3638,11 @@ v1.1.1 优化：
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">心锁守轮椅轴日常</h3>
-                    <span class="version-tag">v1.0.0</span>
+                    <span class="version-tag">v1.0.1</span>
                   </div>
-                  <p class="code-desc">心锁守轮椅轴日常【部分日常】【高容错战斗】
+                  <p class="code-desc">心锁守轮椅轴日常【高容错】
+
+定位：矩阵、深塔、海墟请使用楽山的心锁守轴；本轴以保下限和容错为主，适合刷副本、打聚落。
 
 适用范围：仅保证副本和聚落场景可用。以守岸人为起点推进完整一轮流程，适合刷副本、打聚落，不保证逛街时频繁遭遇少量怪物的零散战斗。
 
@@ -3641,6 +3652,11 @@ v1.1.1 优化：
 3. 执行一号位为守岸人，启动时先确认守岸人出场。
 4. 心使用同奏模态；锁冥装备暗鸟声骸；守岸人装备无归的谬误声骸。
 
+与楽山心锁守 2.0.0 的区别：
+1. 可以逆序使用锁冥的两次延奏：首次 R 未就绪、协奏已满时先普通延奏心，回锁冥后再补 R 同奏心；R 和协奏同时可用时仍优先 R。
+2. 完整一轮至少成功施放一次锁冥 R；心必须补出终结 R；守岸人必须满协奏才能切人。
+3. 首次切心已是后半形态，就跳过第一次回锁，直接继续后半部分流程。
+
 流程特色：
 - 根据实际能量、技能冷却和角色形态推进，不要求满能量开局，不依赖固定竞速轴或角色间高速合轴。
 - 锁冥 R 与协奏同时可用时优先 R，保留协奏用于后续交接。首次上场 R 未就绪但协奏已满时，可以先普通延奏心，之后回锁冥补 R 同奏心；本轮仍保证至少成功施放一次锁冥 R，不以两次普通延奏替代同奏流程。
@@ -3648,13 +3664,15 @@ v1.1.1 优化：
 - 锁冥刻心念长按期间不插入 R、Q 或处决等其他操作；启动被打断时有恢复和重试处理。
 - 心根据实际形态及重击就绪图像推进，兼容高链首次重击直接就绪；进入后半段形态时继续后半流程。
 - 守岸人满协奏经短暂停顿与复核后 Q 切锁；心终结 R 后补普攻，满协奏再 Q 切守。
+- 处决只认怪物身上的实际 F 提示；单次最多尝试 3 秒，未触发就继续动作，同一提示不反复抢占流程；刻心念长按期间仍禁止处决。
+- 参考楽山心锁守 2.0.0 优化强化 E 保留、后台按键时长、重击被吞后的有限重按和统御识别开销；保留本轴低共鸣效率补能与严格交棒条件。
 - 支持后台运行，关键动作保留结果确认与中断恢复。
 
 实测环境：4K 分辨率、极致画质、所有特效和光追全开。
 已完成实战测试：深塔、残象聚落、凝素领域。</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> nympheon</span>
-                    <span class="meta-item"><strong>Size:</strong> 62.08 KB</span>
+                    <span class="meta-item"><strong>Size:</strong> 64.62 KB</span>
                     <span class="meta-item"><strong>File:</strong> 心锁守轮椅轴日常.zip</span>
                   </div>
                 </div>
@@ -4388,6 +4406,67 @@ fix：修改了在新版本下代码错误的问题</p>
                     Download ZIP
                   </a>
                   <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Qiuyuan_Verina_Sigrika_%E5%B0%BA%E7%B4%A0_1.0.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            
+          </div>
+        </section>
+      
+        <section class="team-group" data-team="sanhua, suoming, verina" data-members="sanhua suoming verina">
+          <div class="team-header">
+            <div class="team-title-wrap">
+              <h2 class="team-title">
+                Sanhua, Suoming, Verina
+              </h2>
+              <div class="member-chips">
+                <span class="chip-member">Sanhua</span><span class="chip-member">Suoming</span><span class="chip-member">Verina</span>
+              </div>
+            </div>
+            <div class="team-header-actions">
+              <a href="https://okwwcharcode.ok-script.com/teams/Sanhua_Suoming_Verina.json" class="btn-team-json" target="_blank" title="Team JSON API">
+                <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                Sanhua_Suoming_Verina.json
+              </a>
+            </div>
+          </div>
+
+          <div class="codes-grid">
+            
+              <article class="code-card" data-search="sanhua_suoming_verina sanhua, suoming, verina 楽山 锁散维轮椅轴
+样本：60散（武器千古）01锁60维（带奇幻变奏）
+共效：散华180 锁（衔梦照世套4c首位）125 维里奈260
+位置：一号位散华 二号位锁瞑 三号位维里奈
+适用场景：【矩阵/深塔】
+实机已跑通，复现难度低，锁瞑性能太差，站场流程过长，很容易被肘，而且只能打打走地boss，0链维里奈应该也可以适配，增加了相关的保底，但是没有实测。 sanhua_suoming_verina_楽山_1.0.0.zip sanhua suoming verina">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Sanhua_Suoming_Verina</h3>
+                    <span class="version-tag">v1.0.0</span>
+                  </div>
+                  <p class="code-desc">锁散维轮椅轴
+样本：60散（武器千古）01锁60维（带奇幻变奏）
+共效：散华180 锁（衔梦照世套4C首位）125 维里奈260
+位置：一号位散华 二号位锁瞑 三号位维里奈
+适用场景：【矩阵/深塔】
+实机已跑通，复现难度低，锁瞑性能太差，站场流程过长，很容易被肘，而且只能打打走地BOSS，0链维里奈应该也可以适配，增加了相关的保底，但是没有实测。</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 楽山</span>
+                    <span class="meta-item"><strong>Size:</strong> 35.68 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Sanhua_Suoming_Verina_楽山_1.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Sanhua_Suoming_Verina_%E6%A5%BD%E5%B1%B1_1.0.0.zip" download="Sanhua_Suoming_Verina_楽山_1.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Sanhua_Suoming_Verina_%E6%A5%BD%E5%B1%B1_1.0.0.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
