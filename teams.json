@@ -2,8 +2,8 @@
   "repository": "ok-oldking/ok-ww-char-code",
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
-  "totalTeams": 48,
-  "totalCodes": 67,
+  "totalTeams": 49,
+  "totalCodes": 68,
   "teams": [
     {
       "team": "Baizhi, Phrolova, Verina",
@@ -1528,6 +1528,38 @@
           "sizeFormatted": "31.66 KB",
           "timestamp": 1790602196,
           "modifiedAt": "2026-09-28T13:29:56.000Z"
+        }
+      ]
+    },
+    {
+      "team": "Iuno, Lynae, Verina",
+      "slug": "Iuno_Lynae_Verina",
+      "members": [
+        "Iuno",
+        "Lynae",
+        "Verina"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Iuno_Lynae_Verina.json",
+      "codes": [
+        {
+          "filename": "Iuno_Lynae_Verina_天煞_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Iuno_Lynae_Verina_%E5%A4%A9%E7%85%9E_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Iuno_Lynae_Verina_%E5%A4%A9%E7%85%9E_1.0.0.zip",
+          "name": "Iuno_Lynae_Verina",
+          "description": "【矩阵】【高容错战斗】61月琳维轮椅轴\n\n【共鸣链适配】\n尤诺必须6链，代码按满链机制执行；琳奈测试为0链；维里奈测试为5链，更低链适配尚未验证，5链不是已证实的最低门槛。\n\n【共鸣效率】\n测试值：尤诺120%、琳奈130%、维里奈235%。最低共鸣效率未测定，请勿把测试值视为最低要求。\n\n【一号位与启动角色】\n按测试排位使用：1号位尤诺、2号位琳奈、3号位维里奈。实际开场由程序切到琳奈执行R启动；队伍一号位与首个动作角色不同。\n\n【设置与使用方法】\n关闭“战斗前后自动切换治疗位”（Switch to Healer before and after Combat），治疗位由本轴调度；开启“使用共鸣解放”。\n停止自动战斗，在“角色代码→导入队伍”导入完整ZIP，确认作者天煞、版本1.0.0，三名角色同时使用导入代码。\n检查E/R/Q、跳跃、闪避及切人键位；从新挑战/新战斗开始，队伍头像识别稳定后再启动。不要在已打到一半的轮转中接入。\n\n【武器与练度】\n沿用原测试配置：月61、琳00停驻、维50奇幻；即尤诺6链配1阶专武、琳奈0链配“停驻”、维里奈5链配“奇幻”。后两件武器谐振阶数及其余面板未记录，其他武器与更低练度尚未验证。\n\n【矩阵实测与受击续战】\n本轴已在矩阵中完成实战测试。战斗中即使受击导致动作中断，也不会因此停止运行，而会继续战斗。若受击次数过多，则无法保证增益效果的覆盖率。\n\n【版本】\n1.0.0首次提交。",
+          "author": "天煞",
+          "version": "1.0.0",
+          "team": "Iuno, Lynae, Verina",
+          "members": [
+            "Iuno",
+            "Lynae",
+            "Verina"
+          ],
+          "size": 26814,
+          "sizeFormatted": "26.19 KB",
+          "timestamp": 1793101222,
+          "modifiedAt": "2026-10-27T11:40:22.000Z"
         }
       ]
     },
