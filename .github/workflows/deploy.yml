@@ -61,7 +61,9 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in generated files to commit."
           else
-            git commit -m "chore: auto-generate static pages and team JSONs [skip ci]"
+            # No [skip ci]: Cloudflare Pages skips such commits and would keep serving the previous teams.json.
+            # A push made with GITHUB_TOKEN does not trigger this workflow again.
+            git commit -m "chore: auto-generate static pages and team JSONs"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
