@@ -3,7 +3,7 @@
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
   "totalTeams": 49,
-  "totalCodes": 69,
+  "totalCodes": 68,
   "teams": [
     {
       "team": "Baizhi, Phrolova, Verina",
@@ -1220,28 +1220,9 @@
         "Lucilla",
         "Suisui"
       ],
-      "totalCodes": 5,
+      "totalCodes": 4,
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Hiyuki_Lucilla_Suisui.json",
       "codes": [
-        {
-          "filename": "Hiyuki_Lucilla_Suisui_楽山_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "name": "Hiyuki_Lucilla_Suisui",
-          "description": "绯洛穗4R22居（需2链绯雪）\n样本：61绯雪 00洛瑟拉 00穗穗（精5奇幻变奏/也许234阶也可以没测试）\n共效：绯雪120 洛瑟拉100 穗穗260\n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n场景：【深塔/矩阵】\n实机已跑通，由于启动轮容错较低 建议宝箱启动 \n后续如果转火过多循环轴可能只能打出4居\n对于电脑配置要求稍高，需要1K/2K分辨率下 保证原生帧数尽可能的高，网络稳定",
-          "author": "楽山",
-          "version": "1.0.0",
-          "team": "Hiyuki, Lucilla, Suisui",
-          "members": [
-            "Hiyuki",
-            "Lucilla",
-            "Suisui"
-          ],
-          "size": 44645,
-          "sizeFormatted": "43.6 KB",
-          "timestamp": 1793546750,
-          "modifiedAt": "2026-11-01T15:25:50.000Z"
-        },
         {
           "filename": "Hiyuki_Lucilla_Suisui_楽山_1.0.1.zip",
           "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.0.1.zip",
