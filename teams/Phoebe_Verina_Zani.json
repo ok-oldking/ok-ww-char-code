@@ -10,23 +10,23 @@
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Phoebe_Verina_Zani.json",
   "codes": [
     {
-      "filename": "Phoebe_Verina_Zani_楽山_1.1.0.zip",
-      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
-      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+      "filename": "Phoebe_Verina_Zani_楽山_1.0.2.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Verina_Zani_%E6%A5%BD%E5%B1%B1_1.0.2.zip",
       "name": "Phoebe_Verina_Zani",
-      "description": "赞菲维轮椅轴 \n样本：01赞妮01菲比2链维里奈带精1奇幻变奏 \n共效：赞妮115菲比130维里奈260 \n位置：一号位赞妮 二号位菲比 三号位维里奈 \n实机已跑通，建议走地BOSS开 赞妮对空能力太差 维里奈理论上2链以下也可以使用 但是可能打不到4R\nfix：修改了在新版本下代码错误的问题",
+      "description": "赞菲维轮椅轴 \n样本：01赞妮01菲比2链维里奈带精1奇幻变奏 \n共效：赞妮115菲比130维里奈260 \n位置：一号位赞妮 二号位菲比 三号位维里奈 \n定位：【深塔/矩阵】\n实机已跑通，建议走地BOSS开 赞妮对空能力太差 维里奈理论上2链以下也可以使用 但是可能打不到4R fix：修改了在新版本下代码错误的问题\nv1.0.2 优化:\n· 修复赞妮开了大招被误判没开、反复按 R/E/重击补救\n· 修复 R2 按不出来, R2 后的 E 不再连按到底\n· 第三套终夜最多等 4 秒, 不亮就直接 R2",
       "author": "楽山",
-      "version": "1.1.0",
+      "version": "1.0.2",
       "team": "Phoebe, Verina, Zani",
       "members": [
         "Phoebe",
         "Verina",
         "Zani"
       ],
-      "size": 63542,
-      "sizeFormatted": "62.05 KB",
-      "timestamp": 1790603793,
-      "modifiedAt": "2026-09-28T13:56:33.000Z"
+      "size": 65030,
+      "sizeFormatted": "63.51 KB",
+      "timestamp": 1793674575,
+      "modifiedAt": "2026-11-03T02:56:15.000Z"
     }
   ]
 }
