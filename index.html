@@ -908,43 +908,45 @@ C:\Users\<使用者名稱>\AppData\Local\ok-ww\data\apps\ok-ww\working\src\task\
             
               <article class="code-card" data-search="aemeath_cartethyia_denia aemeath, cartethyia, denia なななのです 【满链4c速刷】【副本一炮穿怪】高链爱弥斯队。
 4c：开炮→击杀boss→原地等boss刷新（期间顺手捡声骸）→锁敌→普攻一下→开炮，循环刷取；不走框架的找声骸、点重新开始流程（进战斗8秒后buff不满，伤害骤降，框架流程赶不上）。一炮没打死就爱弥斯/达妮娅互切，进入完整循环轴。
-日常副本&聚落：进图后自动等强化重击刷新，e变机兵开炮，出伤前长按caps lock。
+日常副本&聚落：进图后自动等强化重击刷新，e变机兵开炮，出伤前长按caps lock。巢穴同时勾了残象聚落和梦魇祓除时，聚落打完会先自动传送回一次血，再打梦魇祓除（队伍没有治疗，车轮战下来达妮娅容易被打倒）。
 1.共鸣链：测试配置6爱3达6卡；非6爱也能用，但刚需3达（达妮娅流程是r1→a1234→e1e2r2q，非3达这里r2不满，做了兜底，会一直打到r2满）；非6爱一炮伤害可能穿不完
 2.共鸣效率：测试值爱弥斯111.6%，达妮娅121.6%
 3.执行一号位：爱弥斯（编队1爱2达3卡）；开战时在场的不是爱弥斯也会自动切给她开场
 4.自动切换治疗位：不开启（队伍里没有治疗）
-5.备注：卡提希娅只单挂，不会被切上场；副本开场那一炮出伤前会长按caps lock，不需要的话把aemeath.py里的caps_hold_time改成0；队伍没有治疗，长时间连续刷取血量会下降，必要时手动回血
+5.备注：卡提希娅只单挂，不会被切上场；副本开场那一炮出伤前会长按caps lock，按住期间会暂停ok-ww的“防止鸣潮移动鼠标”（不然鼠标被挪回去会误选轮盘、打开任务界面），不需要长按的话把aemeath.py里的caps_hold_time改成0；不需要巢穴中途回血的话把nest_heal_before_nightmare改成false；4c长时间连续刷取血量会下降，必要时手动回血；开了windows hdr、截图方式选wgc_hdr时，如果总是找不到f捡声骸、或者协奏一直读不到，多半是框架截图偏暗，不是队伍代码的问题
 6.场景：刷4c、日常副本&聚落
-感谢claude感谢opus5.5，当然也感谢作者的ok-ww aemeath_cartethyia_denia_なななのです_1.1.0.zip aemeath cartethyia denia">
+1.1.1：修复长按caps lock时误开轮盘；达妮娅r2误判成已放出时会继续补按r；q改成r1好了再放、紧接r1，达妮娅协奏满了再q马上切人；巢穴聚落打完自动回血
+感谢claude感谢opus5.5，当然也感谢作者的ok-ww aemeath_cartethyia_denia_なななのです_1.1.1.zip aemeath cartethyia denia">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Aemeath_Cartethyia_Denia</h3>
-                    <span class="version-tag">v1.1.0</span>
+                    <span class="version-tag">v1.1.1</span>
                   </div>
                   <p class="code-desc">【满链4C速刷】【副本一炮穿怪】高链爱弥斯队。
 4C：开炮→击杀Boss→原地等Boss刷新（期间顺手捡声骸）→锁敌→普攻一下→开炮，循环刷取；不走框架的找声骸、点重新开始流程（进战斗8秒后buff不满，伤害骤降，框架流程赶不上）。一炮没打死就爱弥斯/达妮娅互切，进入完整循环轴。
-日常副本&聚落：进图后自动等强化重击刷新，E变机兵开炮，出伤前长按CAPS LOCK。
+日常副本&聚落：进图后自动等强化重击刷新，E变机兵开炮，出伤前长按CAPS LOCK。巢穴同时勾了残象聚落和梦魇祓除时，聚落打完会先自动传送回一次血，再打梦魇祓除（队伍没有治疗，车轮战下来达妮娅容易被打倒）。
 1.共鸣链：测试配置6爱3达6卡；非6爱也能用，但刚需3达（达妮娅流程是R1→A1234→E1E2R2Q，非3达这里R2不满，做了兜底，会一直打到R2满）；非6爱一炮伤害可能穿不完
 2.共鸣效率：测试值爱弥斯111.6%，达妮娅121.6%
 3.执行一号位：爱弥斯（编队1爱2达3卡）；开战时在场的不是爱弥斯也会自动切给她开场
 4.自动切换治疗位：不开启（队伍里没有治疗）
-5.备注：卡提希娅只单挂，不会被切上场；副本开场那一炮出伤前会长按CAPS LOCK，不需要的话把Aemeath.py里的CAPS_HOLD_TIME改成0；队伍没有治疗，长时间连续刷取血量会下降，必要时手动回血
+5.备注：卡提希娅只单挂，不会被切上场；副本开场那一炮出伤前会长按CAPS LOCK，按住期间会暂停ok-ww的“防止鸣潮移动鼠标”（不然鼠标被挪回去会误选轮盘、打开任务界面），不需要长按的话把Aemeath.py里的CAPS_HOLD_TIME改成0；不需要巢穴中途回血的话把NEST_HEAL_BEFORE_NIGHTMARE改成False；4C长时间连续刷取血量会下降，必要时手动回血；开了Windows HDR、截图方式选WGC_HDR时，如果总是找不到F捡声骸、或者协奏一直读不到，多半是框架截图偏暗，不是队伍代码的问题
 6.场景：刷4C、日常副本&聚落
+1.1.1：修复长按CAPS LOCK时误开轮盘；达妮娅R2误判成已放出时会继续补按R；Q改成R1好了再放、紧接R1，达妮娅协奏满了再Q马上切人；巢穴聚落打完自动回血
 感谢Claude感谢Opus5.5，当然也感谢作者的ok-ww</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> なななのです</span>
-                    <span class="meta-item"><strong>Size:</strong> 25.13 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Aemeath_Cartethyia_Denia_なななのです_1.1.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 28.49 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Aemeath_Cartethyia_Denia_なななのです_1.1.1.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.0.zip" download="Aemeath_Cartethyia_Denia_なななのです_1.1.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.1.zip" download="Aemeath_Cartethyia_Denia_なななのです_1.1.1.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.1.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>

@@ -132,23 +132,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Aemeath_Cartethyia_Denia.json",
       "codes": [
         {
-          "filename": "Aemeath_Cartethyia_Denia_なななのです_1.1.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.0.zip",
+          "filename": "Aemeath_Cartethyia_Denia_なななのです_1.1.1.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.1.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Cartethyia_Denia_%E3%81%AA%E3%81%AA%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99_1.1.1.zip",
           "name": "Aemeath_Cartethyia_Denia",
-          "description": "【满链4C速刷】【副本一炮穿怪】高链爱弥斯队。\n4C：开炮→击杀Boss→原地等Boss刷新（期间顺手捡声骸）→锁敌→普攻一下→开炮，循环刷取；不走框架的找声骸、点重新开始流程（进战斗8秒后buff不满，伤害骤降，框架流程赶不上）。一炮没打死就爱弥斯/达妮娅互切，进入完整循环轴。\n日常副本&聚落：进图后自动等强化重击刷新，E变机兵开炮，出伤前长按CAPS LOCK。\n1.共鸣链：测试配置6爱3达6卡；非6爱也能用，但刚需3达（达妮娅流程是R1→A1234→E1E2R2Q，非3达这里R2不满，做了兜底，会一直打到R2满）；非6爱一炮伤害可能穿不完\n2.共鸣效率：测试值爱弥斯111.6%，达妮娅121.6%\n3.执行一号位：爱弥斯（编队1爱2达3卡）；开战时在场的不是爱弥斯也会自动切给她开场\n4.自动切换治疗位：不开启（队伍里没有治疗）\n5.备注：卡提希娅只单挂，不会被切上场；副本开场那一炮出伤前会长按CAPS LOCK，不需要的话把Aemeath.py里的CAPS_HOLD_TIME改成0；队伍没有治疗，长时间连续刷取血量会下降，必要时手动回血\n6.场景：刷4C、日常副本&聚落\n感谢Claude感谢Opus5.5，当然也感谢作者的ok-ww",
+          "description": "【满链4C速刷】【副本一炮穿怪】高链爱弥斯队。\n4C：开炮→击杀Boss→原地等Boss刷新（期间顺手捡声骸）→锁敌→普攻一下→开炮，循环刷取；不走框架的找声骸、点重新开始流程（进战斗8秒后buff不满，伤害骤降，框架流程赶不上）。一炮没打死就爱弥斯/达妮娅互切，进入完整循环轴。\n日常副本&聚落：进图后自动等强化重击刷新，E变机兵开炮，出伤前长按CAPS LOCK。巢穴同时勾了残象聚落和梦魇祓除时，聚落打完会先自动传送回一次血，再打梦魇祓除（队伍没有治疗，车轮战下来达妮娅容易被打倒）。\n1.共鸣链：测试配置6爱3达6卡；非6爱也能用，但刚需3达（达妮娅流程是R1→A1234→E1E2R2Q，非3达这里R2不满，做了兜底，会一直打到R2满）；非6爱一炮伤害可能穿不完\n2.共鸣效率：测试值爱弥斯111.6%，达妮娅121.6%\n3.执行一号位：爱弥斯（编队1爱2达3卡）；开战时在场的不是爱弥斯也会自动切给她开场\n4.自动切换治疗位：不开启（队伍里没有治疗）\n5.备注：卡提希娅只单挂，不会被切上场；副本开场那一炮出伤前会长按CAPS LOCK，按住期间会暂停ok-ww的“防止鸣潮移动鼠标”（不然鼠标被挪回去会误选轮盘、打开任务界面），不需要长按的话把Aemeath.py里的CAPS_HOLD_TIME改成0；不需要巢穴中途回血的话把NEST_HEAL_BEFORE_NIGHTMARE改成False；4C长时间连续刷取血量会下降，必要时手动回血；开了Windows HDR、截图方式选WGC_HDR时，如果总是找不到F捡声骸、或者协奏一直读不到，多半是框架截图偏暗，不是队伍代码的问题\n6.场景：刷4C、日常副本&聚落\n1.1.1：修复长按CAPS LOCK时误开轮盘；达妮娅R2误判成已放出时会继续补按R；Q改成R1好了再放、紧接R1，达妮娅协奏满了再Q马上切人；巢穴聚落打完自动回血\n感谢Claude感谢Opus5.5，当然也感谢作者的ok-ww",
           "author": "なななのです",
-          "version": "1.1.0",
+          "version": "1.1.1",
           "team": "Aemeath, Cartethyia, Denia",
           "members": [
             "Aemeath",
             "Cartethyia",
             "Denia"
           ],
-          "size": 25734,
-          "sizeFormatted": "25.13 KB",
-          "timestamp": 1792605059,
-          "modifiedAt": "2026-10-21T17:50:59.000Z"
+          "size": 29169,
+          "sizeFormatted": "28.49 KB",
+          "timestamp": 1793625634,
+          "modifiedAt": "2026-11-02T13:20:34.000Z"
         }
       ]
     },
