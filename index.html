@@ -552,7 +552,7 @@
         <div class="stat-label">Total Teams</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value">70</div>
+        <div class="stat-value">71</div>
         <div class="stat-label">Total Code Archives</div>
       </div>
       <div class="stat-card">
@@ -568,7 +568,7 @@
         </svg>
         <input type="text" id="searchInput" class="search-input" placeholder="Search team, character, author, or code name..." autocomplete="off">
       </div>
-      <div class="filter-info" id="filterCount">Showing all 70 codes in 50 teams</div>
+      <div class="filter-info" id="filterCount">Showing all 71 codes in 50 teams</div>
     </div>
 
     <div class="teams-container" id="teamsContainer">
@@ -4738,6 +4738,174 @@ v1.0.2 优化:
           </div>
 
           <div class="codes-grid">
+            
+              <article class="code-card" data-search="心鎖維 hsin, suoming, verina 奉眠 鳴潮 ok-ww 自動戰鬥｜心／鎖暝／維里奈
+━━━━━━━━━━━━━━━━━━
+
+【軸來源】改自心鎖守（長風ei 11w 輪切軸 lq，參考樂山代碼），守岸人位置換成維里奈，經 ai 修改並實測
+
+【適用場景】【日常】【海墟】【深塔】【矩陣】
+日常、冥歌海墟、深塔、矩陣均已實測可完整跑完
+
+【適配說明】
+▸ 一號位：不限，程式按角色名切人，編隊順序不限
+▸ 共鳴鏈：以下為作者實測鏈數，更低未測試
+▸ 共鳴效率：以下為作者實測值，共效有溢出，請依自身練度調整
+
+【作者隊伍配置】
+▸ 心（主c）
+　共鳴鏈：3 鏈
+　武器：玉闕玄華 精1
+　共鳴模態：同奏（必要）
+　共鳴效率：119.2%
+▸ 鎖暝
+　共鳴鏈：0 鏈
+　武器：千古 精1
+　主聲駭：暗鳥（必要）
+　共鳴效率：130.8%
+▸ 維里奈
+　共鳴鏈：2 鏈
+　武器：奇幻變奏 精1
+　共鳴效率：259.4%
+
+【基本設定】
+▸ 使用共鳴解放：開啟（必要）
+
+━━━━━━━━━━━━━━━━━━
+🔄 輪轉邏輯
+━━━━━━━━━━━━━━━━━━
+
+維里奈 → 鎖暝 → 心 → 鎖暝 → 心 → 維里奈
+▸ 維里奈
+　q → e → r（能放就放，不等）→ 打到協奏真滿 → 變奏鎖暝
+　補協奏：迴路滿重擊 → 普攻 5 下 → 跳＋空中 3 下，循環
+▸ 鎖暝（念深）
+　r → a → q（暗鳥）→ 同奏切心
+▸ 心（應世相）
+　聲駭 → 步紅塵 → r 轉相 → 照世相 e → 同奏切鎖暝
+▸ 鎖暝（旋雷破·同奏）
+　a 到妄執滿 → 無捨念 → 按住刻心念 → 協奏滿變奏心
+▸ 心（照世相）
+　統御眾機 → 臨寰宇 → [沒怪中鍵鎖敵 ≤3 秒] → 萬闕垂天 → 重擊 → e → 協奏滿變奏維里奈
+
+💡 每一棒交棒都只認頭像光圈，協奏不滿不切
+　任何一棒普通入場，該圈同奏鏈會斷
+💡 萬闕垂天後補重擊 → e，下一圈心1 少補普攻
+💡 開大前沒怪會中鍵重新鎖敵，時間到照放；等完會再確認 r 位，不會放成借相
+
+━━━━━━━━━━━━━━━━━━
+🎯 鎖定與收手
+━━━━━━━━━━━━━━━━━━
+
+▸ 鎖定丟失自動重鎖
+　有血條但沒鎖定、或讀不到怪時，每 0.4 秒按一次中鍵重新鎖定
+　boss 戰不按
+▸ 沒怪自動收手
+　5 秒讀不到怪，或有血條但 4 秒鎖不到，就中斷該圈交回框架，不空揮
+
+━━━━━━━━━━━━━━━━━━
+⚠ 使用注意
+━━━━━━━━━━━━━━━━━━
+▸ 程式不檢查心的形態，大世界連打或換場後，開自動戰鬥前請確認心的 r 位是「轉相」圖示（應世相）
+▸ 冥歌海墟建議選下半場：開場大招能量是滿的，啟動軸最順
+▸ 以上僅供參考，請自行測試你的角色能否穩定運行
+━━━━━━━━━━━━━━━━━━ 心鎖維_奉眠_1.0.0.zip hsin suoming verina">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">心鎖維</h3>
+                    <span class="version-tag">v1.0.0</span>
+                  </div>
+                  <p class="code-desc">鳴潮 ok-ww 自動戰鬥｜心／鎖暝／維里奈
+━━━━━━━━━━━━━━━━━━
+
+【軸來源】改自心鎖守（長風ei 11w 輪切軸 LQ，參考樂山代碼），守岸人位置換成維里奈，經 AI 修改並實測
+
+【適用場景】【日常】【海墟】【深塔】【矩陣】
+日常、冥歌海墟、深塔、矩陣均已實測可完整跑完
+
+【適配說明】
+▸ 一號位：不限，程式按角色名切人，編隊順序不限
+▸ 共鳴鏈：以下為作者實測鏈數，更低未測試
+▸ 共鳴效率：以下為作者實測值，共效有溢出，請依自身練度調整
+
+【作者隊伍配置】
+▸ 心（主C）
+　共鳴鏈：3 鏈
+　武器：玉闕玄華 精1
+　共鳴模態：同奏（必要）
+　共鳴效率：119.2%
+▸ 鎖暝
+　共鳴鏈：0 鏈
+　武器：千古 精1
+　主聲駭：暗鳥（必要）
+　共鳴效率：130.8%
+▸ 維里奈
+　共鳴鏈：2 鏈
+　武器：奇幻變奏 精1
+　共鳴效率：259.4%
+
+【基本設定】
+▸ 使用共鳴解放：開啟（必要）
+
+━━━━━━━━━━━━━━━━━━
+🔄 輪轉邏輯
+━━━━━━━━━━━━━━━━━━
+
+維里奈 → 鎖暝 → 心 → 鎖暝 → 心 → 維里奈
+▸ 維里奈
+　Q → E → R（能放就放，不等）→ 打到協奏真滿 → 變奏鎖暝
+　補協奏：迴路滿重擊 → 普攻 5 下 → 跳＋空中 3 下，循環
+▸ 鎖暝（念深）
+　R → A → Q（暗鳥）→ 同奏切心
+▸ 心（應世相）
+　聲駭 → 步紅塵 → R 轉相 → 照世相 E → 同奏切鎖暝
+▸ 鎖暝（旋雷破·同奏）
+　A 到妄執滿 → 無捨念 → 按住刻心念 → 協奏滿變奏心
+▸ 心（照世相）
+　統御眾機 → 臨寰宇 → [沒怪中鍵鎖敵 ≤3 秒] → 萬闕垂天 → 重擊 → E → 協奏滿變奏維里奈
+
+💡 每一棒交棒都只認頭像光圈，協奏不滿不切
+　任何一棒普通入場，該圈同奏鏈會斷
+💡 萬闕垂天後補重擊 → E，下一圈心1 少補普攻
+💡 開大前沒怪會中鍵重新鎖敵，時間到照放；等完會再確認 R 位，不會放成借相
+
+━━━━━━━━━━━━━━━━━━
+🎯 鎖定與收手
+━━━━━━━━━━━━━━━━━━
+
+▸ 鎖定丟失自動重鎖
+　有血條但沒鎖定、或讀不到怪時，每 0.4 秒按一次中鍵重新鎖定
+　Boss 戰不按
+▸ 沒怪自動收手
+　5 秒讀不到怪，或有血條但 4 秒鎖不到，就中斷該圈交回框架，不空揮
+
+━━━━━━━━━━━━━━━━━━
+⚠ 使用注意
+━━━━━━━━━━━━━━━━━━
+▸ 程式不檢查心的形態，大世界連打或換場後，開自動戰鬥前請確認心的 R 位是「轉相」圖示（應世相）
+▸ 冥歌海墟建議選下半場：開場大招能量是滿的，啟動軸最順
+▸ 以上僅供參考，請自行測試你的角色能否穩定運行
+━━━━━━━━━━━━━━━━━━</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 奉眠</span>
+                    <span class="meta-item"><strong>Size:</strong> 40.62 KB</span>
+                    <span class="meta-item"><strong>File:</strong> 心鎖維_奉眠_1.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/%E5%BF%83%E9%8E%96%E7%B6%AD_%E5%A5%89%E7%9C%A0_1.0.0.zip" download="心鎖維_奉眠_1.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/%E5%BF%83%E9%8E%96%E7%B6%AD_%E5%A5%89%E7%9C%A0_1.0.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
             
               <article class="code-card" data-search="心锁维矩阵_2_分_4r_轴。 hsin, suoming, verina spark 1. 一号位：心，最低适配 0 链，共鸣效率测试值 122.8，武器/声骸无特殊要求。
 2. 二号位：锁，最低适配 0 链，共鸣效率测试值 191（溢出），需装备青云套。
