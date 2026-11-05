@@ -1,0 +1,32 @@
+{
+  "team": "Hiyuki, Suisui, Verina",
+  "slug": "Hiyuki_Suisui_Verina",
+  "members": [
+    "Hiyuki",
+    "Suisui",
+    "Verina"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Hiyuki_Suisui_Verina.json",
+  "codes": [
+    {
+      "filename": "緋穗維_奉眠_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/%E7%B7%8B%E7%A9%97%E7%B6%AD_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/%E7%B7%8B%E7%A9%97%E7%B6%AD_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+      "name": "緋穗維",
+      "description": "緋雪／穗穗／維里奈\n━━━━━━━━━━━━━━━━━━\n\n【用途】\n無特殊用途，作者小號角色不齊湊出的配隊\n適用：日常、冥歌海墟、深塔、矩陣\n\n【隊伍配置】\n建議槽位：1 穗穗／2 維里奈／3 緋雪\n（辨識不到角色名時會退回這個槽位，排法不同需改各檔 DIRECT_SWITCH_INDEX）\n\n▸ 緋雪（主C）\n　共鳴鏈：2 鏈\n　武器：精1專武\n▸ 穗穗\n　共鳴鏈：0 鏈\n　武器：精1奇幻變奏\n▸ 維里奈\n　共鳴鏈：2 鏈\n　武器：精1奇幻變奏\n\n【基本設定】\n▸ 使用共鳴解放：開啟（必要，緋雪需放 R 變身）\n\n【作者角色面板參考】\n⚠ 僅供參考，並非實際門檻要求\n▸ 緋雪\n　暴擊率：74.8%\n　暴擊傷害：270.2%\n　共鳴效率：129.2%\n　共鳴解放傷害加成：33.7%\n▸ 穗穗\n　共鳴效率：260.2%\n▸ 維里奈\n　共鳴效率：271%\n\n━━━━━━━━━━━━━━━━━━\n🔄 輪轉邏輯\n━━━━━━━━━━━━━━━━━━\n\n維里奈 → 穗穗 → 緋雪 → 維里奈\n▸ 每場戰鬥強制維里奈起手\n　穗穗／緋雪若未帶變奏上場，會直接切給維里奈\n▸ 維里奈\n　E、Q 各放一次＋協奏打滿才交棒（R 亮才放，不強制）\n　協奏主要靠星星花綻放（重擊→短按接空中攻擊）\n　站場上限 12 秒，未打滿也會切人\n▸ 穗穗\n　吃維里奈變奏直接進濯雨時\n　芳菲信打滿三格，R 亮且協奏足夠才放 R，延奏交給緋雪\n▸ 緋雪\n　R 變身 → 爆發連段 → R2 → 切維里奈\n　處決（F）只在緋雪軸上觸發\n\n💡 啟動軸預設為短版（short）\n　緋雪 2 鏈以上可改 OPENER_KIND = 'ee'，但共效不足時 R2 後協奏可能不滿\n\n━━━━━━━━━━━━━━━━━━",
+      "author": "奉眠",
+      "version": "1.0.0",
+      "team": "Hiyuki, Suisui, Verina",
+      "members": [
+        "Hiyuki",
+        "Suisui",
+        "Verina"
+      ],
+      "size": 49395,
+      "sizeFormatted": "48.24 KB",
+      "timestamp": 1793379209,
+      "modifiedAt": "2026-10-30T16:53:29.000Z"
+    }
+  ]
+}
